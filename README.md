@@ -21,6 +21,12 @@ Digital electronics is a branch of electronics that deals with discrete signals 
 
 
    ![WhatsApp Image 2025-05-09 at 03 19 03_1ac7866a](https://github.com/user-attachments/assets/6932d2d7-16cd-455e-9fc7-293fb30fb6ae)
+   # Logic Levels
+In digital electronics, a logic level is the voltage representing a specific state,typically a binary digit (0 or1) in a digital circuit. These levels are crucial  for how devices process and transmit data, ensuring reliable communication between components.
 
+ Positive Logic: 0V typically represents 0, and+5V or +3.3V represents 1.
+ 
+ Negative Logic: High voltage represents 0, and low voltage represents 1.
+ 
 
 
