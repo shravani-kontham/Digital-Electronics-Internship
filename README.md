@@ -20,3 +20,7 @@ Digital electronics is a branch of electronics that deals with discrete signals 
 |Used in: Audio systems, sensors, and traditional communication systems|Used in: Computers, digital communication systems and many modern technologies|
 
 
+   ![WhatsApp Image 2025-05-09 at 03 19 03_1ac7866a](https://github.com/user-attachments/assets/6932d2d7-16cd-455e-9fc7-293fb30fb6ae)
+
+
+
