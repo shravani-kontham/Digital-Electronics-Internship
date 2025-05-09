@@ -55,3 +55,78 @@ In digital electronics, a logic level is the voltage representing a specific sta
 3. Used as a shorthand for binary (each 3-bit group of binary can be represented by one octal digit).
  
 Example: 234 (octal) = 2 * 8^2 + 3 * 8^1 + 4 * 8^0 = 156 (decimal)
+
+# Conversion b/w Number System
+ # 1.  Decimal → Binary
+Method: Divide the number by 2 repeatedly, write down remainders in reverse.
+
+Example:
+13 ÷ 2 = 6 R1
+6 ÷ 2 = 3 R0
+3 ÷ 2 = 1 R1
+1 ÷ 2 = 0 R1
+→ Binary: 1101
+ # 2. Binary → Decimal
+Method: Multiply each binary digit by 2 raised to its position (from right to left), then sum.
+
+Example:
+1101 = 1×2³ + 1×2² + 0×2¹ + 1×2⁰ = 8 + 4 + 0 + 1 = 13
+
+ # 3.  Decimal → Octal
+Method: Divide the decimal by 8 repeatedly, reverse remainders.
+
+Example:
+65 ÷ 8 = 8 R1
+8 ÷ 8 = 1 R0
+1 ÷ 8 = 0 R1
+→ Octal: 101
+# 4. Octal → Decimal
+Method: Multiply each octal digit by 8^position and sum.
+
+Example:
+101 = 1×8² + 0×8¹ + 1×8⁰ = 64 + 0 + 1 = 65
+# 5.  Decimal → Hexadecimal
+Method: Divide by 16 repeatedly, convert remainders >9 to A–F, reverse.
+
+Example:
+254 ÷ 16 = 15 R14 → F and E
+→ Hex: FE
+ # 6.   Hexadecimal → Decimal
+Method: Convert each digit to decimal and multiply by 16^position.
+
+Example:
+FE = F×16¹ + E×16⁰ = 15×16 + 14 = 240 + 14 = 254
+# 7.  Binary → Octal
+Method: Group binary digits in 3s from right, convert each group to decimal.
+
+Example:
+110101 = 000 110 101 → 6 5 → Octal: 65
+ # 8. Octal → Binary
+Method: Convert each octal digit to 3-bit binary.
+
+Example:
+65 → 6 = 110, 5 = 101 → Binary: 110101
+# 9. Binary → Hexadecimal
+Method: Group binary digits in 4s from right, convert to hex.
+
+Example:
+11111110 = 1111 1110 → F E → Hex: FE
+ # 10.  Hexadecimal → Binary
+Method: Convert each hex digit to 4-bit binary.
+
+Example:
+FE → F = 1111, E = 1110 → Binary: 1111111
+# 11. Octal → Hexadecimal
+Method: Octal → Binary (3 bits), then Binary → Hex (4 bits).
+
+Example:
+65 (Octal) → 110101 (Binary) → 0001 1010 1 = 1A1 (Hex, pad as needed)
+# 12.  Hexadecimal → Octal
+Method: Hex → Binary (4 bits), then Binary → Octal (3 bits).
+
+Example:
+FE (Hex) → 1111 1110 → Group in 3s: 001 111 111 0 → pad: 000 111 111 010 → 3 7 2 → Octal: 372
+
+
+
+
