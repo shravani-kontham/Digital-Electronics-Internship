@@ -37,7 +37,7 @@ In digital electronics, a logic level is the voltage representing a specific sta
 2.  Each position represents a power of 2.
   
   Example: 10101 (binary) = 21 + 23 + 20 = 101 (decimal)
-# Dicimal Number System(Base 10)
+# Decimal Number System(Base 10)
 1.  Each position represents a power of 10.
 2.  The system we commonly use in everyday life.
   
