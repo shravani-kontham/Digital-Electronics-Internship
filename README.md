@@ -56,7 +56,7 @@ In digital electronics, a logic level is the voltage representing a specific sta
  
 Example: 234 (octal) = 2 * 8^2 + 3 * 8^1 + 4 * 8^0 = 156 (decimal)
 
-# Conversion b/w Number System
+# Conversion b/w Number Systems
  # 1.  Decimal → Binary
 Method: Divide the number by 2 repeatedly, write down remainders in reverse.
 
