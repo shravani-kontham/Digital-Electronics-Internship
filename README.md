@@ -38,14 +38,18 @@ In digital electronics, a logic level is the voltage representing a specific sta
 2.  Each position represents a power of 2.
   
   Example: 10101 (binary)
+  
   = 21 + 23 + 20
+  
   = 101 (decimal)
 # Decimal Number System(Base 10)
 1.  Each position represents a power of 10.
 2.  The system we commonly use in everyday life.
   
  Example: 234 (decimal) 
+ 
  = 2 * 10^2 + 3 * 10^1 + 4 * 10^0
+ 
  = 234
 # Hexa Decimal Number System(Base 16)
 1.  Uses digits 0-9 and letters A-F (A=10, B=11, C=12, D=13, E=14, F=15).
@@ -54,7 +58,9 @@ In digital electronics, a logic level is the voltage representing a specific sta
    represented by one hexadecimal digit).
 
   Example: AB (hexadecimal) 
+
   = 10 * 16^1 + 11 * 16^0
+  
   = 171 (decimal)
 # Octal Number System(Base 8)
 1. Uses digits 0-7. 
@@ -62,7 +68,9 @@ In digital electronics, a logic level is the voltage representing a specific sta
 3. Used as a shorthand for binary (each 3-bit group of binary can be represented by one octal digit).
  
 Example: 234 (octal)
+
 = 2 * 8^2 + 3 * 8^1 + 4 * 8^0
+
 = 156 (decimal)
 
 # Conversion b/w Number Systems
@@ -70,65 +78,94 @@ Example: 234 (octal)
 Method: Divide the number by 2 repeatedly, write down remainders in reverse.
 
 Example:
-13 ÷ 2 = 6 R1
-6 ÷ 2 = 3 R0
-3 ÷ 2 = 1 R1
-1 ÷ 2 = 0 R1
-→ Binary: 1101
+
+ 13 ÷ 2= 6 R1
+ 
+ 6 ÷ 2= 3 R0
+ 
+ 3 ÷ 2= 1 R1
+ 
+ 1 ÷ 2 = 0 R1
+ 
+ → Binary: 1101
+ 
  # 2. Binary → Decimal
 Method: Multiply each binary digit by 2 raised to its position (from right to left), then sum.
 
 Example:
+
 1101 
+
 = 1×2³ + 1×2² + 0×2¹ + 1×2⁰ 
+
 = 8 + 4 + 0 + 1
+
 = 13
 
  # 3.  Decimal → Octal
 Method: Divide the decimal by 8 repeatedly, reverse remainders.
 
 Example:
+
 65 ÷ 8 = 8 R1
+
 8 ÷ 8 = 1 R0
+
 1 ÷ 8 = 0 R1
+
 → Octal: 101
 # 4. Octal → Decimal
 Method: Multiply each octal digit by 8^position and sum.
 
 Example:
+
 101
 = 1×8² + 0×8¹ + 1×8⁰
-= 64 + 0 + 1 
+
+= 64 + 0 + 1
+
 = 65
 # 5.  Decimal → Hexadecimal
 Method: Divide by 16 repeatedly, convert remainders >9 to A–F, reverse.
 
 Example:
-254 ÷ 16 
-= 15 R14
+254 ÷ 16 = 15 R14
+
 → F and E
+
 → Hex: FE
  # 6.   Hexadecimal → Decimal
 Method: Convert each digit to decimal and multiply by 16^position.
 
 Example:
+
 FE = F×16¹ + E×16⁰
-= 15×16 + 14 = 240 + 14
+
+= 15×16 + 14 
+
+= 240 + 14
+
 = 254
 # 7.  Binary → Octal
 Method: Group binary digits in 3s from right, convert each group to decimal.
 
 Example:
+
 110101
 = 000 110 101
+
 → 6 5
+
 → Octal: 65
  # 8. Octal → Binary
 Method: Convert each octal digit to 3-bit binary.
 
 Example:
-65 → 6
-= 110, 5
+
+65
+
+→ 6= 110, 5
+
 = 101 
 → Binary: 110101
 # 9. Binary → Hexadecimal
@@ -143,27 +180,40 @@ Example:
 Method: Convert each hex digit to 4-bit binary.
 
 Example:
-FE → F
-= 1111, E 
-= 1110
+
+FE
+→ F= 1111,
+
+E = 1110
+
 → Binary: 1111111
 # 11. Octal → Hexadecimal
 Method: Octal → Binary (3 bits), then Binary → Hex (4 bits).
 
 Example:
+
 65 (Octal) 
+
 → 110101 (Binary)
+
 → 0001 1010 1 
+
 = 1A1 (Hex, pad as needed)
 # 12.  Hexadecimal → Octal
 Method: Hex → Binary (4 bits), then Binary → Octal (3 bits).
 
 Example:
+
 FE (Hex) 
+
 → 1111 1110 
+
 → Group in 3s: 001 111 111 0
+
 → pad: 000 111 111 010
+
 → 3 7 2 
+
 → Octal: 372
 
 # TASK 2
@@ -177,48 +227,40 @@ FE (Hex)
 ![WhatsApp Image 2025-05-13 at 08 25 31_ddbdedde](https://github.com/user-attachments/assets/18d879fa-c403-4ef8-8685-dae258bb596d)
 
 # Function
-AND gates have two inputs. The output of an AND gate is on only if both inputs are on.
-If at least one of the inputs is off, the output will be off.
-
-A and B are both in an On state, the output (out) will be an On state. If either A or B is in an Off state, the output will also be in an Off state.
-A and B must be On for the output to be On.
+An AND gate is a fundamental logic gate in digital electronics that outputs a 1 (true) only if all its inputs are 1 (true). Otherwise, it outputs a 0 (false). The output is a logical product of the inputs.
 
 # Truth Table
 
 |A|	B	|A AND B|
 |----|-----|-----|
-|On	|On|	On|
-|On	|Off|	Off|
-|Off|	On|	Off|
-|Off|	Off|	Off|
+|0	|0|	0|
+|0	|1|	0|
+|1|	0|	0|
+|1|	1|	1|
 
 # 2. OR GATE
 ![WhatsApp Image 2025-05-13 at 08 25 31_b054052b](https://github.com/user-attachments/assets/484e0bd0-ce46-497f-9721-2c8ad620dabd)
 
 # Function
-if at least one of the inputs are on. If both inputs are off, the output will be off.
-
- if either A or B is On, the output (out) will also be On. If both A and B are Off, the output will be Off.
-
+The OR gate is a digital logic gate that implements logical disjunction. The OR gate outputs "true" if any of its inputs is "true"; otherwise it outputs "false". The input and output states are normally represented by different voltage levels.
 # Truth Table
 |A|B|A OR B|
 |-|-|------|
-|On|	On|	On|
-|On|	Off	|On|
-|Off|	On|	On|
-|Off|	Off	|Off|
+|0|	0|	0|
+|0|	1	|1|
+|1|	0|	1|
+|1|	1	|1|
 
 # 3. NOT GATE
 ![WhatsApp Image 2025-05-13 at 08 32 15_99d4c0e2](https://github.com/user-attachments/assets/e53ffa18-b5f4-463b-8c36-319c97f43674)
 
 # Function
-The NOT logic gate has only one input. If the input is On then the output will be Off. In other words, the NOT logic gate changes the signal from On to Off or from Off to On. It is sometimes called an inverter.
+A NOT gate, also known as an inverter, is a fundamental digital logic gate that reverses its input signal. It has one input and one output. If the input is high (1), the output is low (0), and vice versa.
 
-# Truth Table
 
 |INPUT|	OUTPUT|
 |-----|-------|
-|A	|NOT A|
-|On|	Off|
-|Off	|On|
+|A	| A'|
+|0|	1|
+|1	|0|
 
