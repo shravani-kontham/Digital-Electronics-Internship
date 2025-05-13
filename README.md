@@ -37,25 +37,33 @@ In digital electronics, a logic level is the voltage representing a specific sta
 1. Uses only two digits: 0 and 1. 
 2.  Each position represents a power of 2.
   
-  Example: 10101 (binary) = 21 + 23 + 20 = 101 (decimal)
+  Example: 10101 (binary)
+  = 21 + 23 + 20
+  = 101 (decimal)
 # Decimal Number System(Base 10)
 1.  Each position represents a power of 10.
 2.  The system we commonly use in everyday life.
   
- Example: 234 (decimal) = 2 * 10^2 + 3 * 10^1 + 4 * 10^0 = 234
+ Example: 234 (decimal) 
+ = 2 * 10^2 + 3 * 10^1 + 4 * 10^0
+ = 234
 # Hexa Decimal Number System(Base 16)
 1.  Uses digits 0-9 and letters A-F (A=10, B=11, C=12, D=13, E=14, F=15).
 2.  Each position represents a power of 16.
 3.  Used as a shorthand for binary (each 4-bit group of binary can be
    represented by one hexadecimal digit).
 
-  Example: AB (hexadecimal) = 10 * 16^1 + 11 * 16^0 = 171 (decimal)
+  Example: AB (hexadecimal) 
+  = 10 * 16^1 + 11 * 16^0
+  = 171 (decimal)
 # Octal Number System(Base 8)
 1. Uses digits 0-7. 
 2. Each position represents a power of 8. 
 3. Used as a shorthand for binary (each 3-bit group of binary can be represented by one octal digit).
  
-Example: 234 (octal) = 2 * 8^2 + 3 * 8^1 + 4 * 8^0 = 156 (decimal)
+Example: 234 (octal)
+= 2 * 8^2 + 3 * 8^1 + 4 * 8^0
+= 156 (decimal)
 
 # Conversion b/w Number Systems
  # 1.  Decimal → Binary
@@ -71,7 +79,10 @@ Example:
 Method: Multiply each binary digit by 2 raised to its position (from right to left), then sum.
 
 Example:
-1101 = 1×2³ + 1×2² + 0×2¹ + 1×2⁰ = 8 + 4 + 0 + 1 = 13
+1101 
+= 1×2³ + 1×2² + 0×2¹ + 1×2⁰ 
+= 8 + 4 + 0 + 1
+= 13
 
  # 3.  Decimal → Octal
 Method: Divide the decimal by 8 repeatedly, reverse remainders.
@@ -85,48 +96,75 @@ Example:
 Method: Multiply each octal digit by 8^position and sum.
 
 Example:
-101 = 1×8² + 0×8¹ + 1×8⁰ = 64 + 0 + 1 = 65
+101
+= 1×8² + 0×8¹ + 1×8⁰
+= 64 + 0 + 1 
+= 65
 # 5.  Decimal → Hexadecimal
 Method: Divide by 16 repeatedly, convert remainders >9 to A–F, reverse.
 
 Example:
-254 ÷ 16 = 15 R14 → F and E
+254 ÷ 16 
+= 15 R14
+→ F and E
 → Hex: FE
  # 6.   Hexadecimal → Decimal
 Method: Convert each digit to decimal and multiply by 16^position.
 
 Example:
-FE = F×16¹ + E×16⁰ = 15×16 + 14 = 240 + 14 = 254
+FE = F×16¹ + E×16⁰
+= 15×16 + 14 = 240 + 14
+= 254
 # 7.  Binary → Octal
 Method: Group binary digits in 3s from right, convert each group to decimal.
 
 Example:
-110101 = 000 110 101 → 6 5 → Octal: 65
+110101
+= 000 110 101
+→ 6 5
+→ Octal: 65
  # 8. Octal → Binary
 Method: Convert each octal digit to 3-bit binary.
 
 Example:
-65 → 6 = 110, 5 = 101 → Binary: 110101
+65 → 6
+= 110, 5
+= 101 
+→ Binary: 110101
 # 9. Binary → Hexadecimal
 Method: Group binary digits in 4s from right, convert to hex.
 
 Example:
-11111110 = 1111 1110 → F E → Hex: FE
+11111110
+= 1111 1110
+→ F E 
+→ Hex: FE
  # 10.  Hexadecimal → Binary
 Method: Convert each hex digit to 4-bit binary.
 
 Example:
-FE → F = 1111, E = 1110 → Binary: 1111111
+FE → F
+= 1111, E 
+= 1110
+→ Binary: 1111111
 # 11. Octal → Hexadecimal
 Method: Octal → Binary (3 bits), then Binary → Hex (4 bits).
 
 Example:
-65 (Octal) → 110101 (Binary) → 0001 1010 1 = 1A1 (Hex, pad as needed)
+65 (Octal) 
+→ 110101 (Binary)
+→ 0001 1010 1 
+= 1A1 (Hex, pad as needed)
 # 12.  Hexadecimal → Octal
 Method: Hex → Binary (4 bits), then Binary → Octal (3 bits).
 
 Example:
-FE (Hex) → 1111 1110 → Group in 3s: 001 111 111 0 → pad: 000 111 111 010 → 3 7 2 → Octal: 372
+FE (Hex) 
+→ 1111 1110 
+→ Group in 3s: 001 111 111 0
+→ pad: 000 111 111 010
+→ 3 7 2 
+→ Octal: 372
 
 # TASK 2
 
