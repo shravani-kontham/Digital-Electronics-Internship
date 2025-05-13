@@ -130,7 +130,7 @@ FE (Hex) → 1111 1110 → Group in 3s: 001 111 111 0 → pad: 000 111 111 010 �
 
 # TASK 2
 
-# Basic Logic Gates
+# BASIC LOGIC GATES
 1. AND Gate
 2. OR Gate
 3. NOT Gate
