@@ -1,4 +1,5 @@
 # DIGITAL ELECTRONICS 
+# TASK 1
 # What is Digital Electronics
 Digital electronics is a branch of electronics that deals with discrete signals and circuits, as opposed to analog electronics which handles continuous signals. Digital circuits use binary logic (0 and 1) and Boolean algebra to process and store information. These circuits are the foundation of modern computers, digital communications, and numerous other technological applications. 
 # Applications Of Digital Electronics
@@ -127,6 +128,59 @@ Method: Hex → Binary (4 bits), then Binary → Octal (3 bits).
 Example:
 FE (Hex) → 1111 1110 → Group in 3s: 001 111 111 0 → pad: 000 111 111 010 → 3 7 2 → Octal: 372
 
+# TASK 2
 
+# Basic Logic Gates
+1. AND Gate
+2. OR Gate
+3. NOT Gate
 
+# 1. AND GATE
+![WhatsApp Image 2025-05-13 at 08 25 31_ddbdedde](https://github.com/user-attachments/assets/18d879fa-c403-4ef8-8685-dae258bb596d)
+
+# Function
+AND gates have two inputs. The output of an AND gate is on only if both inputs are on.
+If at least one of the inputs is off, the output will be off.
+
+A and B are both in an On state, the output (out) will be an On state. If either A or B is in an Off state, the output will also be in an Off state.
+A and B must be On for the output to be On.
+
+# Truth Table
+
+|A|	B	|A AND B|
+|----|-----|-----|
+|On	|On|	On|
+|On	|Off|	Off|
+|Off|	On|	Off|
+|Off|	Off|	Off|
+
+# 2. OR GATE
+![WhatsApp Image 2025-05-13 at 08 25 31_b054052b](https://github.com/user-attachments/assets/484e0bd0-ce46-497f-9721-2c8ad620dabd)
+
+# Function
+if at least one of the inputs are on. If both inputs are off, the output will be off.
+
+ if either A or B is On, the output (out) will also be On. If both A and B are Off, the output will be Off.
+
+# Truth Table
+|A|B|A OR B|
+|-|-|------|
+|On|	On|	On|
+|On|	Off	|On|
+|Off|	On|	On|
+|Off|	Off	|Off|
+
+# 3. NOT GATE
+![WhatsApp Image 2025-05-13 at 08 32 15_99d4c0e2](https://github.com/user-attachments/assets/e53ffa18-b5f4-463b-8c36-319c97f43674)
+
+# Function
+The NOT logic gate has only one input. If the input is On then the output will be Off. In other words, the NOT logic gate changes the signal from On to Off or from Off to On. It is sometimes called an inverter.
+
+# Truth Table
+
+|INPUT|	OUTPUT|
+|-----|-------|
+|A	|NOT A|
+|On|	Off|
+|Off	|On|
 
