@@ -1,11 +1,17 @@
 # DIGITAL ELECTRONICS 
 # TASK 1
 # Table of Contents
+
 • What is Digital Electronics
+
 • Applications of Digital Electronics
+
 • Digital vs Analog Signals
+
 • Number Systems
+
 • Conversion between Number System
+
 • Basic Logic Gates
 
 # What is Digital Electronics
