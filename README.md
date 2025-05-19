@@ -2,17 +2,19 @@
 # TASK 1
 # Table of Contents
 
-• What is Digital Electronics
+•<a href="https://en.wikipedia.org/wiki/Digital_electronics">What is Digital Electronics</a>
 
-• Applications of Digital Electronics
+•<a href="https://en.wikipedia.org/wiki/Digital_electronics#Applications">Applications Of Digital Electronics</a>
 
-• Digital vs Analog Signals
+•<a href="https://en.wikipedia.org/wiki/Analog_signal#Comparison_with_digital_signals">Digital vs Analog Signals</a>
 
-• Number Systems
+• <a href="https://en.wikipedia.org/wiki/Logic_level">Logic Levels</a>
 
-• Conversion between Number System
+• <a href="https://en.wikipedia.org/wiki/Digital_electronics#Logic_levels_and_number_systems">Logic Levels and Number Systems in Digital Electronics</a>
 
-• Basic Logic Gates
+• <a href="https://en.wikipedia.org/wiki/Positional_notation#Base_conversion">Conversion Between Number Systems</a>
+
+• 
 
 # What is Digital Electronics
 Digital electronics is a branch of electronics that deals with discrete signals and circuits, as opposed to analog electronics which handles continuous signals. Digital circuits use binary logic (0 and 1) and Boolean algebra to process and store information. These circuits are the foundation of modern computers, digital communications, and numerous other technological applications. 
@@ -233,9 +235,6 @@ FE (Hex)
 # TASK 2
 
 # BASIC LOGIC GATES
-1. AND Gate
-2. OR Gate
-3. NOT Gate
 
 # 1. AND GATE
 ![WhatsApp Image 2025-05-13 at 08 25 31_ddbdedde](https://github.com/user-attachments/assets/18d879fa-c403-4ef8-8685-dae258bb596d)
@@ -271,10 +270,68 @@ The OR gate is a digital logic gate that implements logical disjunction. The OR 
 # Function
 A NOT gate, also known as an inverter, is a fundamental digital logic gate that reverses its input signal. It has one input and one output. If the input is high (1), the output is low (0), and vice versa.
 
-
+# Truth Table
 |INPUT|	OUTPUT|
 |-----|-------|
 |A	| A'|
 |0|	1|
 |1	|0|
+
+# 4. NAND GATE
+![WhatsApp Image 2025-05-19 at 07 29 27_a65bbb54](https://github.com/user-attachments/assets/f2c1830e-4d96-4196-8d86-d7e6631be21b)
+
+# Function
+A two-input NAND gate is a fundamental digital logic gate that produces an output only when either or both inputs are low. In simpler terms, it gives a high output (1) unless both inputs are high (1), in which case, it gives a low output (0).
+
+# Truth Table
+|A|B|X|
+|--|--|-|
+|0|0|1|
+|0|1|1|
+|1|0|1|
+|1|1|0|
+
+# 5. NOR GATE
+![WhatsApp Image 2025-05-19 at 07 38 50_e41981bb](https://github.com/user-attachments/assets/607815ff-8aee-4696-bcf2-e28cc9bc494b)
+
+# Function
+A NOR gate is a digital logic gate that gives an output of 0 when any of its inputs are 1, otherwise 1. NOR gates can be made to produce a variety of logic gates, including OR and AND gates. The output of the NOR gate is a logic 0 as long as the input voltage is below the threshold.
+
+# Truth Table
+|A|B|OUTPUT|
+|--|--|--|
+|0|0|1|
+|1|0|1|
+|0|1|0|
+|1|1|0|
+
+ # 6. XOR GATE 
+ ![WhatsApp Image 2025-05-19 at 07 42 55_7585709f](https://github.com/user-attachments/assets/692553fa-c7a1-4017-9d22-df3806c8ab24)
+
+ # Function
+ An XOR (Exclusive OR) gate is a digital logic gate that produces a high (1) output only when the inputs are different. If both inputs are the same (both 0 or both 1), the output is low (0). It's also known as an "either/or, but not both" gate.
+
+# Truth Table
+|A|B|OUTPUT|
+|--|--|--|
+|0|0|0|
+|0|1|1|
+|1|0|1|
+|1|1|0|
+
+# 7. XNOR GATE
+![WhatsApp Image 2025-05-19 at 07 49 27_c7f03487](https://github.com/user-attachments/assets/258dc465-2119-4fbf-ad59-1eb950d01acd)
+
+# Function
+An XNOR (Exclusive NOR) gate is a digital logic gate that produces a high (1) output if both inputs are the same (both 0 or both 1), and a low (0) output if the inputs are different. It's essentially the inverse of an XOR gate.
+
+# Truth Table
+|A|B|OUTPUT|
+|--|--|--|
+|0|0|1|
+|0|1|0|
+|1|0|0|
+|1|1|1|
+
+ 
 
