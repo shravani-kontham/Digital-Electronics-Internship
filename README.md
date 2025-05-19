@@ -329,6 +329,7 @@ An XNOR (Exclusive NOR) gate is a digital logic gate that produces a high (1) ou
 |1|1|1|
 
 # Integrated Circuits-IC's
+
 # What is an Integrated Circuit
 
 Integrated circuits (ICs) also called microelectric chips are used to create a device that can perform certain electrical operations such as signal amplification which is called a transistor from the combination of words of the transfer and resistor. Solid-state electronics is the name given to the field of research into how to make electronic devices out of solid materials.
