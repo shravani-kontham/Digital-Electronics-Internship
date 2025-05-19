@@ -2,19 +2,15 @@
 # TASK 1
 # Table of Contents
 
-•<a href="https://en.wikipedia.org/wiki/Digital_electronics">What is Digital Electronics</a>
 
-•<a href="https://en.wikipedia.org/wiki/Digital_electronics#Applications">Applications Of Digital Electronics</a>
+- [What is Digital Electronics](#what-is-digital-electronics)
+- [Applications of Digital Electronics](#applications-of-digital-electronics)
+- [Digital vs Analog Signals](#digital-vs-analog-signals)
+- [Logic Levels](#logic-levels)
+- [Number Systems in Digital Electronics](#number-systems-in-digital-electronics)
+- [Conversion Between Number Systems](#conversion-between-number-systems)
+- [Basic Logic Gates](#basic-logic-gates)
 
-•<a href="https://en.wikipedia.org/wiki/Analog_signal#Comparison_with_digital_signals">Digital vs Analog Signals</a>
-
-• <a href="https://en.wikipedia.org/wiki/Logic_level">Logic Levels</a>
-
-• <a href="https://en.wikipedia.org/wiki/Digital_electronics#Logic_levels_and_number_systems">Logic Levels and Number Systems in Digital Electronics</a>
-
-• <a href="https://en.wikipedia.org/wiki/Positional_notation#Base_conversion">Conversion Between Number Systems</a>
-
-• 
 
 # What is Digital Electronics
 Digital electronics is a branch of electronics that deals with discrete signals and circuits, as opposed to analog electronics which handles continuous signals. Digital circuits use binary logic (0 and 1) and Boolean algebra to process and store information. These circuits are the foundation of modern computers, digital communications, and numerous other technological applications. 
