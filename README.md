@@ -2,13 +2,12 @@
 # TASK 1
 # Table of Contents
 
-
 - [What is Digital Electronics](#what-is-digital-electronics)
 - [Applications of Digital Electronics](#applications-of-digital-electronics)
 - [Digital vs Analog Signals](#digital-vs-analog-signals)
 - [Logic Levels](#logic-levels)
 - [Number Systems in Digital Electronics](#number-systems-in-digital-electronics)
-- [Conversion Between Number Systems](#conversion-between-number-systems)
+- [Conversion Between Number Systems](#conversion-between-number-systems) 
 - [Basic Logic Gates](#basic-logic-gates)
 
 
@@ -329,5 +328,159 @@ An XNOR (Exclusive NOR) gate is a digital logic gate that produces a high (1) ou
 |1|0|0|
 |1|1|1|
 
- 
+# INTEGRATED CIRCUITS - IC'S
+# What is an Integrated Circuit
+
+Integrated circuits (ICs) also called microelectric chips are used to create a device that can perform certain electrical operations such as signal amplification which is called a transistor from the combination of words of the transfer and resistor. Solid-state electronics is the name given to the field of research into how to make electronic devices out of solid materials.
+
+| *Logic Gate* | *IC (TTL - 74 series)*   | *Gates per IC* | *No. of Inputs* |
+| -------------- | ------------------------ |  ---------------- | ----------------- |
+| AND            | 7408                     |    4                | 2                 |
+| OR             | 7432                     | 4                | 2                 |
+| NOT (Inverter) | 7404                     | 6                | 1                 |
+| NAND           | 7400                     |  4                | 2                 |
+| NOR            | 7402                     | 4                | 2                 |
+| XOR            | 7486                     |  4                | 2                 |
+| XNOR           | 74266 / 74LS266 (quad)   |  4                | 2                 |
+
+# 1. IC 7408 - AND GATE
+![WhatsApp Image 2025-05-19 at 11 03 31_b36c07f7](https://github.com/user-attachments/assets/ecb277fe-18da-47b6-91c2-8e3cb767791f)
+
+| *Pin No.* | *Pin Name* | *Description*              |
+| ----------- | ------------ | ---------------------------- |
+| 1           | A1           | Input of 1st AND gate        |
+| 2           | B1           | Input of 1st AND gate        |
+| 3           | Y1           | Output of 1st AND gate       |
+| 4           | A2           | Input of 2nd AND gate        |
+| 5           | B2           | Input of 2nd AND gate        |
+| 6           | Y2           | Output of 2nd AND gate       |
+| 7           | GND          | Ground (0V)                  |
+| 8           | Y3           | Output of 3rd AND gate       |
+| 9           | A3           | Input of 3rd AND gate        |
+| 10          | B3           | Input of 3rd AND gate        |
+| 11          | Y4           | Output of 4th AND gate       |
+| 12          | A4           | Input of 4th AND gate        |
+| 13          | B4           | Input of 4th AND gate        |
+| 14          | Vcc          | Supply Voltage (+5V typical) |
+
+#  2. IC 7432 - OR GATE
+![WhatsApp Image 2025-05-19 at 11 07 06_8df1ca62](https://github.com/user-attachments/assets/73471a4c-5411-4e9b-9973-9ac3b9b0b99e)
+
+| *Pin No.* | *Pin Name* | *Description*                |
+| ----------- | ------------ | ------------------------------ |
+| 1           | A1           | Input of Gate 1                |
+| 2           | B1           | Input of Gate 1                |
+| 3           | Y1           | Output of Gate 1               |
+| 4           | A2           | Input of Gate 2                |
+| 5           | B2           | Input of Gate 2                |
+| 6           | Y2           | Output of Gate 2               |
+| 7           | GND          | Ground (0V)                    |
+| 8           | Y3           | Output of Gate 3               |
+| 9           | A3           | Input of Gate 3                |
+| 10          | B3           | Input of Gate 3                |
+| 11          | Y4           | Output of Gate 4               |
+| 12          | A4           | Input of Gate 4                |
+| 13          | B4           | Input of Gate 4                |
+| 14          | Vcc          | Supply Voltage (+5V typically) |
+
+# 3. IC 7404  - NOT GATE
+![WhatsApp Image 2025-05-19 at 11 12 51_6735177f](https://github.com/user-attachments/assets/184879f4-cf82-4b95-8f92-2fb9f02517af)
+
+| *Pin Number* | *Function*  | *Description*              |
+| -------------- | ------------- | ---------------------------- |
+| 1              | Input 1 (A1)  | Input of inverter 1          |
+| 2              | Output 1 (Y1) | Output of inverter 1         |
+| 3              | Input 2 (A2)  | Input of inverter 2          |
+| 4              | Output 2 (Y2) | Output of inverter 2         |
+| 5              | Input 3 (A3)  | Input of inverter 3          |
+| 6              | Output 3 (Y3) | Output of inverter 3         |
+| 7              | GND           | Ground (0V)                  |
+| 8              | Output 4 (Y4) | Output of inverter 4         |
+| 9              | Input 4 (A4)  | Input of inverter 4          |
+| 10             | Output 5 (Y5) | Output of inverter 5         |
+| 11             | Input 5 (A5)  | Input of inverter 5          |
+| 12             | Output 6 (Y6) | Output of inverter 6         |
+| 13             | Input 6 (A6)  | Input of inverter 6          |
+| 14             | Vcc           | Supply Voltage (+5V typical) |
+
+# 4. IC 7400 - NAND GATAE
+![WhatsApp Image 2025-05-19 at 11 15 19_47a80011](https://github.com/user-attachments/assets/345f379f-7f81-41b4-bb44-e25f7072e726)
+
+| *Pin No.* | *Function*      | *Description*                 |
+| ----------- | ----------------- | ------------------------------- |
+| 1           | Input A (Gate 1)  | First input of NAND gate 1      |
+| 2           | Input B (Gate 1)  | Second input of NAND gate 1     |
+| 3           | Output Y (Gate 1) | Output of NAND gate 1           |
+| 4           | Input A (Gate 2)  | First input of NAND gate 2      |
+| 5           | Input B (Gate 2)  | Second input of NAND gate 2     |
+| 6           | Output Y (Gate 2) | Output of NAND gate 2           |
+| 7           | GND               | Ground (0V)                     |
+| 8           | Output Y (Gate 3) | Output of NAND gate 3           |
+| 9           | Input A (Gate 3)  | First input of NAND gate 3      |
+| 10          | Input B (Gate 3)  | Second input of NAND gate 3     |
+| 11          | Output Y (Gate 4) | Output of NAND gate 4           |
+| 12          | Input A (Gate 4)  | First input of NAND gate 4      |
+| 13          | Input B (Gate 4)  | Second input of NAND gate 4     |
+| 14          | Vcc               | Positive Supply (+5V typically) |
+
+# 5. IC 7402 - NOR GATE
+![WhatsApp Image 2025-05-19 at 11 18 44_00aca054](https://github.com/user-attachments/assets/3a31aaaa-b3da-464b-aa34-d7b91cd6e1b7)
+
+| *Pin No.* | *Function* | *Description*      |
+| ----------- | ------------ | -------------------- |
+| 1           | A1           | Input of Gate 1      |
+| 2           | B1           | Input of Gate 1      |
+| 3           | Y1           | Output of Gate 1     |
+| 4           | A2           | Input of Gate 2      |
+| 5           | B2           | Input of Gate 2      |
+| 6           | Y2           | Output of Gate 2     |
+| 7           | GND          | Ground (0V)          |
+| 8           | Y3           | Output of Gate 3     |
+| 9           | A3           | Input of Gate 3      |
+| 10          | B3           | Input of Gate 3      |
+| 11          | Y4           | Output of Gate 4     |
+| 12          | A4           | Input of Gate 4      |
+| 13          | B4           | Input of Gate 4      |
+| 14          | Vcc          | Supply Voltage (+5V) |
+
+# 6. IC 7486 - XOR GATE
+![WhatsApp Image 2025-05-19 at 11 21 47_4f49cf35](https://github.com/user-attachments/assets/7f3bf869-0c55-44fe-b756-efb03b03bf5b)
+
+| *Pin Number* | *Function* | *Description*              |
+| -------------- | ------------ | ---------------------------- |
+| 1              | A1           | Input of Gate 1              |
+| 2              | B1           | Input of Gate 1              |
+| 3              | Y1           | Output of Gate 1             |
+| 4              | A2           | Input of Gate 2              |
+| 5              | B2           | Input of Gate 2              |
+| 6              | Y2           | Output of Gate 2             |
+| 7              | GND          | Ground (0V)                  |
+| 8              | Y3           | Output of Gate 3             |
+| 9              | A3           | Input of Gate 3              |
+| 10             | B3           | Input of Gate 3              |
+| 11             | Y4           | Output of Gate 4             |
+| 12             | A4           | Input of Gate 4              |
+| 13             | B4           | Input of Gate 4              |
+| 14             | Vcc          | Power Supply (+5V typically) |
+
+# 7. IC 74266 - XNOR GATE
+![WhatsApp Image 2025-05-19 at 11 24 55_3b503070](https://github.com/user-attachments/assets/93b6c995-58e6-4221-b145-9e71c3498b53)
+
+| *Pin Number* | *Pin Name* | *Description*                   |
+| -------------- | ------------ | --------------------------------- |
+| 1              | A1           | Input of Gate 1                   |
+| 2              | B1           | Input of Gate 1                   |
+| 3              | A2           | Input of Gate 2                   |
+| 4              | B2           | Input of Gate 2                   |
+| 5              | Y2           | Output of Gate 2 (Open Collector) |
+| 6              | Y1           | Output of Gate 1 (Open Collector) |
+| 7              | GND          | Ground                            |
+| 8              | Y4           | Output of Gate 4 (Open Collector) |
+| 9              | Y3           | Output of Gate 3 (Open Collector) |
+| 10             | A3           | Input of Gate 3                   |
+| 11             | B3           | Input of Gate 3                   |
+| 12             | A4           | Input of Gate 4                   |
+| 13             | B4           | Input of Gate 4                   |
+| 14             | Vcc          | Supply Voltage (+5V)              |
+
 
