@@ -39,7 +39,7 @@ In digital electronics, a logic level is the voltage representing a specific sta
  Positive Logic: 0V typically represents 0, and+5V or +3.3V represents 1.
  
  Negative Logic: High voltage represents 0, and low voltage represents 1.
- # Number Systems 
+ # Number Systems in Digital Electronics 
  In digital electronics, number systems are crucial for representing and manipulating data within electronic circuits. The most important number systems are binary (base 2), octal (base 8), and hexadecimal (base 16), with decimal (base 10) being used for human understanding. Binary is fundamental because digital systems primarily operate using two states (0 and 1).
  
  ![WhatsApp Image 2025-05-09 at 03 32 37_88748cd3](https://github.com/user-attachments/assets/902e6919-46e9-4c58-bfe1-f86c79ba8226)
@@ -84,7 +84,7 @@ Example: 234 (octal)
 
 = 156 (decimal)
 
-# Conversion between Number Systems
+# Conversion Between Number Systems
  # 1.  Decimal → Binary
 Method: Divide the number by 2 repeatedly, write down remainders in reverse.
 
@@ -328,7 +328,7 @@ An XNOR (Exclusive NOR) gate is a digital logic gate that produces a high (1) ou
 |1|0|0|
 |1|1|1|
 
-# INTEGRATED CIRCUITS - IC'S
+# Integrated Circuits-IC's
 # What is an Integrated Circuit
 
 Integrated circuits (ICs) also called microelectric chips are used to create a device that can perform certain electrical operations such as signal amplification which is called a transistor from the combination of words of the transfer and resistor. Solid-state electronics is the name given to the field of research into how to make electronic devices out of solid materials.
