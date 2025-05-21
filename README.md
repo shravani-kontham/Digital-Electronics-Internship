@@ -526,8 +526,14 @@ https://www.tinkercad.com/things/1T56sEGsDOo-xnor-gate?sharecode=HB6sePxz1o4CEC5
 
 # Implementation of Logic Gates
 
-# ->AND USING NAND GATE 
+# -AND USING NAND GATE 
 ![AND USING NAND GATE (1)](https://github.com/user-attachments/assets/b607dad4-3cce-4fe4-905d-005d9b2bc488)
 
 # Circuit in Tinkercad
 https://www.tinkercad.com/things/fQtNVhY88CC-and-using-nand-gate?sharecode=xV-sHjm4Goc_fhXU2zB4D09fx3FoC_QjgtaWYOcW65I
+
+# -OR USING NAND GATE
+![OR USING NAND GATE](https://github.com/user-attachments/assets/27a2219f-0510-42cf-a887-bbab298a05e6)
+
+# Circuit in Tinkercad
+https://www.tinkercad.com/things/3Ke6SD6kkF9-or-using-nand-gate?sharecode=u8rAeJe5eKM-kJgAlBTxgWXhpUDS1JupiziQfsllVqs
