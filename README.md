@@ -345,6 +345,7 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 | XNOR           | 74266 / 74LS266 (quad)   |  4                | 2                 |
 
 # 1. IC 7408 - AND GATE
+![WhatsApp Image 2025-05-21 at 11 47 01_cb4b3beb](https://github.com/user-attachments/assets/0dfe3fb4-f250-430f-8b95-3d96279acc5e)
 ![WhatsApp Image 2025-05-19 at 11 03 31_b36c07f7](https://github.com/user-attachments/assets/ecb277fe-18da-47b6-91c2-8e3cb767791f)
 
 | *Pin No.* | *Pin Name* | *Description*              |
@@ -364,7 +365,11 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 | 13          | B4           | Input of 4th AND gate        |
 | 14          | Vcc          | Supply Voltage (+5V typical) |
 
+# AND GATE in Tinkercad
+https://www.tinkercad.com/things/0sTppHUZUlK-ic-7408-and-gate?sharecode=t4oZbU-YAouNLIISGuMd5VM5D-to5Axt8Plmw27JkuI
+
 #  2. IC 7432 - OR GATE
+![WhatsApp Image 2025-05-21 at 11 47 01_c2235c06](https://github.com/user-attachments/assets/b5cc3611-9e61-4549-8e8b-11212a4b9551)
 ![WhatsApp Image 2025-05-19 at 11 07 06_8df1ca62](https://github.com/user-attachments/assets/73471a4c-5411-4e9b-9973-9ac3b9b0b99e)
 
 | *Pin No.* | *Pin Name* | *Description*                |
@@ -384,7 +389,11 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 | 13          | B4           | Input of Gate 4                |
 | 14          | Vcc          | Supply Voltage (+5V typically) |
 
+# OR GATE in Tinkercad
+https://www.tinkercad.com/things/9w6VttJb0ST-ic-7432-or-gate?sharecode=bJLTvfweXC0uOJjEZUzCuSxNuuAlCtHPR56JA6lyeeE
+
 # 3. IC 7404  - NOT GATE
+![WhatsApp Image 2025-05-21 at 11 47 02_7f37b112](https://github.com/user-attachments/assets/75b4cb07-f6b3-4dee-8cfe-29906e7cc90a)
 ![WhatsApp Image 2025-05-19 at 11 12 51_6735177f](https://github.com/user-attachments/assets/184879f4-cf82-4b95-8f92-2fb9f02517af)
 
 | *Pin Number* | *Function*  | *Description*              |
@@ -404,7 +413,11 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 | 13             | Input 6 (A6)  | Input of inverter 6          |
 | 14             | Vcc           | Supply Voltage (+5V typical) |
 
+# NOT GATE in Tinkercad
+https://www.tinkercad.com/things/94e2e3GHMnL-ic-7404-not-gate?sharecode=7v-_6UfH2bg5xc1Yqm_J-cg9ru8vO3FhDtAw-AzDnWs
+
 # 4. IC 7400 - NAND GATAE
+![WhatsApp Image 2025-05-21 at 11 47 02_01b19abc](https://github.com/user-attachments/assets/ad01e3fd-342d-4519-b589-4e25793cf902)
 ![WhatsApp Image 2025-05-19 at 11 15 19_47a80011](https://github.com/user-attachments/assets/345f379f-7f81-41b4-bb44-e25f7072e726)
 
 | *Pin No.* | *Function*      | *Description*                 |
@@ -424,7 +437,11 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 | 13          | Input B (Gate 4)  | Second input of NAND gate 4     |
 | 14          | Vcc               | Positive Supply (+5V typically) |
 
+# NAND GATE in Tinkercad
+https://www.tinkercad.com/things/9Po3zJ3ileW-ic-7400-nand-gate?sharecode=hhBRD_8BWjVYBdHqh130OpxsLIEZcMKDeFGPKEirxGM
+
 # 5. IC 7402 - NOR GATE
+![WhatsApp Image 2025-05-21 at 11 47 02_afcba74d](https://github.com/user-attachments/assets/0b8f80fc-e439-4c64-9afe-4d9dbba00629)
 ![WhatsApp Image 2025-05-19 at 11 18 44_00aca054](https://github.com/user-attachments/assets/3a31aaaa-b3da-464b-aa34-d7b91cd6e1b7)
 
 | *Pin No.* | *Function* | *Description*      |
@@ -444,8 +461,13 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 | 13          | B4           | Input of Gate 4      |
 | 14          | Vcc          | Supply Voltage (+5V) |
 
+# NOR GATE in Tinkercad
+https://www.tinkercad.com/things/jEeIWYn5v20-ic-7402-nor-gate?sharecode=laAIb4NySdVjSJcZhRA6KsCAghjzmqv-vcU799bPxb8
+
 # 6. IC 7486 - XOR GATE
-![WhatsApp Image 2025-05-19 at 11 21 47_4f49cf35](https://github.com/user-attachments/assets/7f3bf869-0c55-44fe-b756-efb03b03bf5b)
+![WhatsApp Image 2025-05-21 at 11 47 03_27d04e10](https://github.com/user-attachments/assets/2672c5a2-d507-4080-ad0e-53cd329bcf92)
+![WhatsApp Image 2025-05-21 at 11 53 15_123c10bb](https://github.com/user-attachments/assets/a993e99e-be1a-4ca6-a16b-32e949ab0c7d)
+
 
 | *Pin Number* | *Function* | *Description*              |
 | -------------- | ------------ | ---------------------------- |
@@ -464,7 +486,11 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 | 13             | B4           | Input of Gate 4              |
 | 14             | Vcc          | Power Supply (+5V typically) |
 
+# XOR GATE in Tinkercad
+https://www.tinkercad.com/things/l8aRbezkYcQ-ic-7486-xor-gate?sharecode=6zwSAtsK1okoJz1CPdrWznGaO_9-WbFfWCW1MiZ9e98
+
 # 7. IC 74266 - XNOR GATE
+![WhatsApp Image 2025-05-21 at 11 47 04_55c73567](https://github.com/user-attachments/assets/393e8886-42e6-4557-a8e8-b2c2da44f39b)
 ![WhatsApp Image 2025-05-19 at 11 24 55_3b503070](https://github.com/user-attachments/assets/93b6c995-58e6-4221-b145-9e71c3498b53)
 
 | *Pin Number* | *Pin Name* | *Description*                   |
@@ -484,4 +510,16 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 | 13             | B4           | Input of Gate 4                   |
 | 14             | Vcc          | Supply Voltage (+5V)              |
 
+# XNOR GATE in Tinkercad
+https://www.tinkercad.com/things/1T56sEGsDOo-xnor-gate?sharecode=HB6sePxz1o4CEC5B3Y_nwg2m0epJag6ZtXwe795styg
 
+# Applications of Logic Gates
+| *Logic Gate* |  *Operation* | *Common Applications*                                                                 |
+| -------------- |  ------------- | --------------------------------------------------------------------------------------- |
+| AND            | A·B           | - Digital multiplication<br>- Input validation systems<br>- Alarm circuits              |
+| OR             | A + B         | - Decision-making circuits<br>- Control systems<br>- Lighting systems (either/or input) |
+| NOT            |¬A or A̅      | - Inverters<br>- Signal toggling<br>- Memory control systems                            |
+| NAND           |  ¬(A·B)        | - Universal gate<br>- Logic circuit design<br>- Burglar alarms                          |
+| NOR            |  ¬(A + B)      | - Universal gate<br>- Microprocessor control logic<br>- Simple memory storage           |
+| XOR            | A ⊕ B         | - Parity checkers<br>- Adders/subtractors<br>- Data comparison                          |
+| XNOR           | ¬(A ⊕ B)      | - Equality detectors<br>- Digital comparators<br>- Error detection                      |
