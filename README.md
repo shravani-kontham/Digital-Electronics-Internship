@@ -523,3 +523,11 @@ https://www.tinkercad.com/things/1T56sEGsDOo-xnor-gate?sharecode=HB6sePxz1o4CEC5
 | NOR            |  ¬(A + B)      | - Universal gate<br>- Microprocessor control logic<br>- Simple memory storage           |
 | XOR            | A ⊕ B         | - Parity checkers<br>- Adders/subtractors<br>- Data comparison                          |
 | XNOR           | ¬(A ⊕ B)      | - Equality detectors<br>- Digital comparators<br>- Error detection                      |
+
+# Implementation of Logic Gates
+
+# ->AND USING NAND GATE 
+![AND USING NAND GATE (1)](https://github.com/user-attachments/assets/b607dad4-3cce-4fe4-905d-005d9b2bc488)
+
+# Circuit in Tinkercad
+https://www.tinkercad.com/things/fQtNVhY88CC-and-using-nand-gate?sharecode=xV-sHjm4Goc_fhXU2zB4D09fx3FoC_QjgtaWYOcW65I
