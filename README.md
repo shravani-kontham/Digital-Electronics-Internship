@@ -9,7 +9,10 @@
 - [Number Systems in Digital Electronics](#number-systems-in-digital-electronics)
 - [Conversion Between Number Systems](#conversion-between-number-systems) 
 - [Basic Logic Gates](#basic-logic-gates)
-- [Integrated Circuits-IC's](#integrated-circuits-ic's)
+- [Integrated Circuits-IC's](#integrated-circuits-ics)
+- [Applications of Logic Gates](#applications-of-logic-gates)
+- [Implementation of Logic Gates](#implementation-of-logic-gates)
+
 
 # What is Digital Electronics
 Digital electronics is a branch of electronics that deals with discrete signals and circuits, as opposed to analog electronics which handles continuous signals. Digital circuits use binary logic (0 and 1) and Boolean algebra to process and store information. These circuits are the foundation of modern computers, digital communications, and numerous other technological applications. 
@@ -366,8 +369,7 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 | 14          | Vcc          | Supply Voltage (+5V typical) |
 
 # AND GATE in Tinkercad
-https://www.tinkercad.com/things/0sTppHUZUlK-ic-7408-and-gate?sharecode=t4oZbU-YAouNLIISGuMd5VM5D-to5Axt8Plmw27JkuI
-
+[Open in Tinkercad ](https://www.tinkercad.com/things/0sTppHUZUlK-ic-7408-and-gate?sharecode=t4oZbU-YAouNLIISGuMd5VM5D-to5Axt8Plmw27JkuI)
 #  2. IC 7432 - OR GATE
 ![WhatsApp Image 2025-05-21 at 11 47 01_c2235c06](https://github.com/user-attachments/assets/b5cc3611-9e61-4549-8e8b-11212a4b9551)
 ![WhatsApp Image 2025-05-19 at 11 07 06_8df1ca62](https://github.com/user-attachments/assets/73471a4c-5411-4e9b-9973-9ac3b9b0b99e)
@@ -390,7 +392,7 @@ https://www.tinkercad.com/things/0sTppHUZUlK-ic-7408-and-gate?sharecode=t4oZbU-Y
 | 14          | Vcc          | Supply Voltage (+5V typically) |
 
 # OR GATE in Tinkercad
-https://www.tinkercad.com/things/9w6VttJb0ST-ic-7432-or-gate?sharecode=bJLTvfweXC0uOJjEZUzCuSxNuuAlCtHPR56JA6lyeeE
+[Open in Tinkercad ](https://www.tinkercad.com/things/9w6VttJb0ST-ic-7432-or-gate?sharecode=bJLTvfweXC0uOJjEZUzCuSxNuuAlCtHPR56JA6lyeeE)
 
 # 3. IC 7404  - NOT GATE
 ![WhatsApp Image 2025-05-21 at 11 47 02_7f37b112](https://github.com/user-attachments/assets/75b4cb07-f6b3-4dee-8cfe-29906e7cc90a)
@@ -414,7 +416,7 @@ https://www.tinkercad.com/things/9w6VttJb0ST-ic-7432-or-gate?sharecode=bJLTvfweX
 | 14             | Vcc           | Supply Voltage (+5V typical) |
 
 # NOT GATE in Tinkercad
-https://www.tinkercad.com/things/94e2e3GHMnL-ic-7404-not-gate?sharecode=7v-_6UfH2bg5xc1Yqm_J-cg9ru8vO3FhDtAw-AzDnWs
+[Open in Tinkercad ](https://www.tinkercad.com/things/94e2e3GHMnL-ic-7404-not-gate?sharecode=7v-_6UfH2bg5xc1Yqm_J-cg9ru8vO3FhDtAw-AzDnWs)
 
 # 4. IC 7400 - NAND GATAE
 ![WhatsApp Image 2025-05-21 at 11 47 02_01b19abc](https://github.com/user-attachments/assets/ad01e3fd-342d-4519-b589-4e25793cf902)
@@ -438,8 +440,7 @@ https://www.tinkercad.com/things/94e2e3GHMnL-ic-7404-not-gate?sharecode=7v-_6UfH
 | 14          | Vcc               | Positive Supply (+5V typically) |
 
 # NAND GATE in Tinkercad
-https://www.tinkercad.com/things/9Po3zJ3ileW-ic-7400-nand-gate?sharecode=hhBRD_8BWjVYBdHqh130OpxsLIEZcMKDeFGPKEirxGM
-
+[Open in Tinkercad ](https://www.tinkercad.com/things/9Po3zJ3ileW-ic-7400-nand-gate?sharecode=hhBRD_8BWjVYBdHqh130OpxsLIEZcMKDeFGPKEirxGM)
 # 5. IC 7402 - NOR GATE
 ![WhatsApp Image 2025-05-21 at 11 47 02_afcba74d](https://github.com/user-attachments/assets/0b8f80fc-e439-4c64-9afe-4d9dbba00629)
 ![WhatsApp Image 2025-05-19 at 11 18 44_00aca054](https://github.com/user-attachments/assets/3a31aaaa-b3da-464b-aa34-d7b91cd6e1b7)
@@ -462,7 +463,7 @@ https://www.tinkercad.com/things/9Po3zJ3ileW-ic-7400-nand-gate?sharecode=hhBRD_8
 | 14          | Vcc          | Supply Voltage (+5V) |
 
 # NOR GATE in Tinkercad
-https://www.tinkercad.com/things/jEeIWYn5v20-ic-7402-nor-gate?sharecode=laAIb4NySdVjSJcZhRA6KsCAghjzmqv-vcU799bPxb8
+[Open in Tinkercad ](https://www.tinkercad.com/things/jEeIWYn5v20-ic-7402-nor-gate?sharecode=laAIb4NySdVjSJcZhRA6KsCAghjzmqv-vcU799bPxb8)
 
 # 6. IC 7486 - XOR GATE
 ![WhatsApp Image 2025-05-21 at 11 47 03_27d04e10](https://github.com/user-attachments/assets/2672c5a2-d507-4080-ad0e-53cd329bcf92)
@@ -487,7 +488,7 @@ https://www.tinkercad.com/things/jEeIWYn5v20-ic-7402-nor-gate?sharecode=laAIb4Ny
 | 14             | Vcc          | Power Supply (+5V typically) |
 
 # XOR GATE in Tinkercad
-https://www.tinkercad.com/things/l8aRbezkYcQ-ic-7486-xor-gate?sharecode=6zwSAtsK1okoJz1CPdrWznGaO_9-WbFfWCW1MiZ9e98
+[Open in Tinkercad ](https://www.tinkercad.com/things/l8aRbezkYcQ-ic-7486-xor-gate?sharecode=6zwSAtsK1okoJz1CPdrWznGaO_9-WbFfWCW1MiZ9e98)
 
 # 7. IC 74266 - XNOR GATE
 ![WhatsApp Image 2025-05-21 at 11 47 04_55c73567](https://github.com/user-attachments/assets/393e8886-42e6-4557-a8e8-b2c2da44f39b)
@@ -511,7 +512,7 @@ https://www.tinkercad.com/things/l8aRbezkYcQ-ic-7486-xor-gate?sharecode=6zwSAtsK
 | 14             | Vcc          | Supply Voltage (+5V)              |
 
 # XNOR GATE in Tinkercad
-https://www.tinkercad.com/things/1T56sEGsDOo-xnor-gate?sharecode=HB6sePxz1o4CEC5B3Y_nwg2m0epJag6ZtXwe795styg
+[Open in Tinkercad ](https://www.tinkercad.com/things/1T56sEGsDOo-xnor-gate?sharecode=HB6sePxz1o4CEC5B3Y_nwg2m0epJag6ZtXwe795styg)
 
 # Applications of Logic Gates
 | *Logic Gate* |  *Operation* | *Common Applications*                                                                 |
@@ -530,16 +531,15 @@ https://www.tinkercad.com/things/1T56sEGsDOo-xnor-gate?sharecode=HB6sePxz1o4CEC5
 ![AND USING NAND GATE (1)](https://github.com/user-attachments/assets/b607dad4-3cce-4fe4-905d-005d9b2bc488)
 
 # Circuit in Tinkercad
-https://www.tinkercad.com/things/fQtNVhY88CC-and-using-nand-gate?sharecode=xV-sHjm4Goc_fhXU2zB4D09fx3FoC_QjgtaWYOcW65I
-
+[Open in Tinkercad ](https://www.tinkercad.com/things/fQtNVhY88CC-and-using-nand-gate?sharecode=xV-sHjm4Goc_fhXU2zB4D09fx3FoC_QjgtaWYOcW65l)
 # OR GATE USING NAND GATE
 ![OR USING NAND GATE](https://github.com/user-attachments/assets/27a2219f-0510-42cf-a887-bbab298a05e6)
 
 # Circuit in Tinkercad
-https://www.tinkercad.com/things/3Ke6SD6kkF9-or-using-nand-gate?sharecode=u8rAeJe5eKM-kJgAlBTxgWXhpUDS1JupiziQfsllVqs
+[Open in Tinkercad ](https://www.tinkercad.com/things/3Ke6SD6kkF9-or-using-nand-gate?sharecode=u8rAeJe5eKM-kJgAlBTxgWXhpUDS1JupiziQfsllVqs)
 
 # NOT GATE USING NAND GATE
 ![NOT USING NAND GATE](https://github.com/user-attachments/assets/4adbeaa5-e589-40cf-b6bd-6d3facd096ba)
 
 # Circuit in Tinkercad
-https://www.tinkercad.com/things/7FKD0IKyhpJ-not-using-nand-gate?sharecode=HvPpaMgrdWDPmLP4i6-5P6yaUGNQGC-dt4r6nqm3Eek
+[Open in Tinkercad ](https://www.tinkercad.com/things/7FKD0IKyhpJ-not-using-nand-gate?sharecode=HvPpa)
