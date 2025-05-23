@@ -566,5 +566,5 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 
 # NOT GATE USING NOR GATE
 ![NOT USING NOR GATE](https://github.com/user-attachments/assets/a1d9730c-a6a8-4672-bb8a-798d3f3a7847)
-# Circuitr in Tinkercad 
+# Circuit in Tinkercad 
 [Open in Tinkercad](https://www.tinkercad.com/things/b3vQq6p5kvf-not-using-nor-gate?sharecode=5maK3HQQwScx-DIWHlD3MM8Rg5SOJ8bdDlfflgIFets)
