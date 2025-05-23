@@ -344,6 +344,16 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 | XOR            | 7486                     |  4                | 2                 |
 | XNOR           | 74266 / 74LS266 (quad)   |  4                | 2                 |
 
+# Applications of Logic Gates
+| *Logic Gate* |  *Operation* | *Common Applications*                                                                 |
+| -------------- |  ------------- | --------------------------------------------------------------------------------------- |
+| AND            | A·B           | - Digital multiplication<br>- Input validation systems<br>- Alarm circuits              |
+| OR             | A + B         | - Decision-making circuits<br>- Control systems<br>- Lighting systems (either/or input) |
+| NOT            |¬A or A̅      | - Inverters<br>- Signal toggling<br>- Memory control systems                            |
+| NAND           |  ¬(A·B)        | - Universal gate<br>- Logic circuit design<br>- Burglar alarms                          |
+| NOR            |  ¬(A + B)      | - Universal gate<br>- Microprocessor control logic<br>- Simple memory storage           |
+| XOR            | A ⊕ B         | - Parity checkers<br>- Adders/subtractors<br>- Data comparison                          |
+| XNOR           | ¬(A ⊕ B)      | - Equality detectors<br>- Digital comparators<br>- Error detection                      |
 
 # 1. IC 7408 - AND GATE
   ![WhatsApp Image 2025-05-23 at 08 43 58_8e6a5b6e](https://github.com/user-attachments/assets/787ca7cc-08d2-41ee-b011-b662a988db90)
@@ -525,17 +535,6 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 # XNOR GATE in Tinkercad
 [XNOR Gate on Tinkercad](https://www.tinkercad.com/things/1T56sEGsDOo-xnor-gate?sharecode=HB6sePxz1o4CEC5B3Y_nwg2m0epJag6ZtXwe795styg)
 
-# Applications of Logic Gates
-| *Logic Gate* |  *Operation* | *Common Applications*                                                                 |
-| -------------- |  ------------- | --------------------------------------------------------------------------------------- |
-| AND            | A·B           | - Digital multiplication<br>- Input validation systems<br>- Alarm circuits              |
-| OR             | A + B         | - Decision-making circuits<br>- Control systems<br>- Lighting systems (either/or input) |
-| NOT            |¬A or A̅      | - Inverters<br>- Signal toggling<br>- Memory control systems                            |
-| NAND           |  ¬(A·B)        | - Universal gate<br>- Logic circuit design<br>- Burglar alarms                          |
-| NOR            |  ¬(A + B)      | - Universal gate<br>- Microprocessor control logic<br>- Simple memory storage           |
-| XOR            | A ⊕ B         | - Parity checkers<br>- Adders/subtractors<br>- Data comparison                          |
-| XNOR           | ¬(A ⊕ B)      | - Equality detectors<br>- Digital comparators<br>- Error detection                      |
-
 # Implementation of Logic Gates
 
 # Implementation of AND OR NOT GATES USING NAND GATE
@@ -556,16 +555,13 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 # Circuit in Tinkercad
 [Open in Tinkercad ](https://www.tinkercad.com/things/7FKD0IKyhpJ-not-using-nand-gate?sharecode=HvPpa)
 
-# Implementation of AND OR NOT USING NOR GATE
+# Implementation of AND OR NOT GATES USING NOR GATE
 # AND GATE USING NOR GATE
 ![AND USING NOR GATE](https://github.com/user-attachments/assets/e70d8543-7dbf-4eef-8177-13a2b560db84)
 # Circuit in Tinkercad
-](https://www.tinkercad.com/things/h1zbBghokQR-and-using-nor-gate?sharecode=GeQpSz7MQrp8EG_RjMzPekr48k4taT8oeFhMIc7N5-w)
-# OR GATE USING NOR GATE
-
-# Circcuit in Tinkercad
+[Open in Tinkercad](https://www.tinkercad.com/things/h1zbBghokQR-and-using-nor-gate?sharecode=GeQpSz7MQrp8EG_RjMzPekr48k4taT8oeFhMIc7N5-w)
 
 # NOT GATE USING NOR GATE
 ![NOT USING NOR GATE](https://github.com/user-attachments/assets/a1d9730c-a6a8-4672-bb8a-798d3f3a7847)
 # Circuitr in Tinkercad 
-[NOT using NOR Gate on Tinkercad](https://www.tinkercad.com/things/b3vQq6p5kvf-not-using-nor-gate?sharecode=5maK3HQQwScx-DIWHlD3MM8Rg5SOJ8bdDlfflgIFets)
+[Open in Tinkercad](https://www.tinkercad.com/things/b3vQq6p5kvf-not-using-nor-gate?sharecode=5maK3HQQwScx-DIWHlD3MM8Rg5SOJ8bdDlfflgIFets)
