@@ -348,8 +348,9 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 | XNOR           | 74266 / 74LS266 (quad)   |  4                | 2                 |
 
 # 1. IC 7408 - AND GATE
-![WhatsApp Image 2025-05-21 at 11 47 01_cb4b3beb](https://github.com/user-attachments/assets/0dfe3fb4-f250-430f-8b95-3d96279acc5e)
-![WhatsApp Image 2025-05-19 at 11 03 31_b36c07f7](https://github.com/user-attachments/assets/ecb277fe-18da-47b6-91c2-8e3cb767791f)
+  ![WhatsApp Image 2025-05-23 at 08 43 58_8e6a5b6e](https://github.com/user-attachments/assets/787ca7cc-08d2-41ee-b011-b662a988db90)
+![WhatsApp Image 2025-05-23 at 08 46 04_3ff86fb0](https://github.com/user-attachments/assets/02ef5524-c987-4062-a5be-acc24ed4dd37)
+
 
 | *Pin No.* | *Pin Name* | *Description*              |
 | ----------- | ------------ | ---------------------------- |
@@ -371,8 +372,9 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 # AND GATE in Tinkercad
 [Open in Tinkercad ](https://www.tinkercad.com/things/0sTppHUZUlK-ic-7408-and-gate?sharecode=t4oZbU-YAouNLIISGuMd5VM5D-to5Axt8Plmw27JkuI)
 #  2. IC 7432 - OR GATE
-![WhatsApp Image 2025-05-21 at 11 47 01_c2235c06](https://github.com/user-attachments/assets/b5cc3611-9e61-4549-8e8b-11212a4b9551)
-![WhatsApp Image 2025-05-19 at 11 07 06_8df1ca62](https://github.com/user-attachments/assets/73471a4c-5411-4e9b-9973-9ac3b9b0b99e)
+![WhatsApp Image 2025-05-23 at 08 52 25_9e97e3cd](https://github.com/user-attachments/assets/720f202e-55c8-42eb-9d7b-f5c64329dbbf)
+![WhatsApp Image 2025-05-23 at 08 56 47_0ace2b3d](https://github.com/user-attachments/assets/88664fe4-53c3-489f-b272-6945a7a24ad9)
+
 
 | *Pin No.* | *Pin Name* | *Description*                |
 | ----------- | ------------ | ------------------------------ |
@@ -395,7 +397,7 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 [Open in Tinkercad ](https://www.tinkercad.com/things/9w6VttJb0ST-ic-7432-or-gate?sharecode=bJLTvfweXC0uOJjEZUzCuSxNuuAlCtHPR56JA6lyeeE)
 
 # 3. IC 7404  - NOT GATE
-![WhatsApp Image 2025-05-21 at 11 47 02_7f37b112](https://github.com/user-attachments/assets/75b4cb07-f6b3-4dee-8cfe-29906e7cc90a)
+![WhatsApp Image 2025-05-23 at 08 59 16_bd1bbf22](https://github.com/user-attachments/assets/54d572c6-fcae-4682-b918-6916cf5741be)
 ![WhatsApp Image 2025-05-19 at 11 12 51_6735177f](https://github.com/user-attachments/assets/184879f4-cf82-4b95-8f92-2fb9f02517af)
 
 | *Pin Number* | *Function*  | *Description*              |
@@ -419,8 +421,9 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 [Open in Tinkercad ](https://www.tinkercad.com/things/94e2e3GHMnL-ic-7404-not-gate?sharecode=7v-_6UfH2bg5xc1Yqm_J-cg9ru8vO3FhDtAw-AzDnWs)
 
 # 4. IC 7400 - NAND GATAE
-![WhatsApp Image 2025-05-21 at 11 47 02_01b19abc](https://github.com/user-attachments/assets/ad01e3fd-342d-4519-b589-4e25793cf902)
-![WhatsApp Image 2025-05-19 at 11 15 19_47a80011](https://github.com/user-attachments/assets/345f379f-7f81-41b4-bb44-e25f7072e726)
+![WhatsApp Image 2025-05-23 at 09 05 35_09ee88f3](https://github.com/user-attachments/assets/538f4d95-491e-4a82-a70a-7f807a8c7903)
+![WhatsApp Image 2025-05-23 at 09 09 52_de7c06b6](https://github.com/user-attachments/assets/59497e82-a18d-4e62-979e-5ec3b266cd71)
+
 
 | *Pin No.* | *Function*      | *Description*                 |
 | ----------- | ----------------- | ------------------------------- |
@@ -466,9 +469,9 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 [Open in Tinkercad ](https://www.tinkercad.com/things/jEeIWYn5v20-ic-7402-nor-gate?sharecode=laAIb4NySdVjSJcZhRA6KsCAghjzmqv-vcU799bPxb8)
 
 # 6. IC 7486 - XOR GATE
-![WhatsApp Image 2025-05-21 at 11 47 03_27d04e10](https://github.com/user-attachments/assets/2672c5a2-d507-4080-ad0e-53cd329bcf92)
-![WhatsApp Image 2025-05-21 at 11 53 15_123c10bb](https://github.com/user-attachments/assets/a993e99e-be1a-4ca6-a16b-32e949ab0c7d)
+![WhatsApp Image 2025-05-23 at 09 28 36_c7ad1fb5](https://github.com/user-attachments/assets/721d7b11-9c2c-4ecb-86d1-d3f5fd304fa2)
 
+![WhatsApp Image 2025-05-23 at 09 27 04_7b0f2c9f](https://github.com/user-attachments/assets/17bf6330-3ed4-4d21-a0b0-3699d9207a49)
 
 | *Pin Number* | *Function* | *Description*              |
 | -------------- | ------------ | ---------------------------- |
@@ -491,8 +494,8 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 [Open in Tinkercad ](https://www.tinkercad.com/things/l8aRbezkYcQ-ic-7486-xor-gate?sharecode=6zwSAtsK1okoJz1CPdrWznGaO_9-WbFfWCW1MiZ9e98)
 
 # 7. IC 74266 - XNOR GATE
-![WhatsApp Image 2025-05-21 at 11 47 04_55c73567](https://github.com/user-attachments/assets/393e8886-42e6-4557-a8e8-b2c2da44f39b)
-![WhatsApp Image 2025-05-19 at 11 24 55_3b503070](https://github.com/user-attachments/assets/93b6c995-58e6-4221-b145-9e71c3498b53)
+![WhatsApp Image 2025-05-23 at 09 25 16_6b41e107](https://github.com/user-attachments/assets/344d69bb-51e0-46e9-8a93-0b987035876d)
+![WhatsApp Image 2025-05-23 at 09 25 17_50981ab5](https://github.com/user-attachments/assets/1586532c-105a-4f9a-83d5-3f1f3abff6e3)
 
 | *Pin Number* | *Pin Name* | *Description*                   |
 | -------------- | ------------ | --------------------------------- |
