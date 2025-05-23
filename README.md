@@ -1,4 +1,4 @@
-# DIGITAL ELECTRONICS 
+![OR USING NOR GATE](https://github.com/user-attachments/assets/deb7b2cf-839c-4466-9fa4-5246231144d1)# DIGITAL ELECTRONICS 
 # Table of Contents
 
 - [What is Digital Electronics](#what-is-digital-electronics)
@@ -540,18 +540,16 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 # Implementation of AND OR NOT GATES USING NAND GATE
 # AND GATE USING NAND GATE 
 ![AND USING NAND GATE (1)](https://github.com/user-attachments/assets/b607dad4-3cce-4fe4-905d-005d9b2bc488)
-
 # Circuit in Tinkercad
 [Open in Tinkercad ](https://www.tinkercad.com/things/fQtNVhY88CC-and-using-nand-gate?sharecode=xV-sHjm4Goc_fhXU2zB4D09fx3FoC_QjgtaWYOcW65l)
+
 # OR GATE USING NAND GATE
 ![OR USING NAND GATE](https://github.com/user-attachments/assets/27a2219f-0510-42cf-a887-bbab298a05e6)
-
 # Circuit in Tinkercad
 [Open in Tinkercad ](https://www.tinkercad.com/things/3Ke6SD6kkF9-or-using-nand-gate?sharecode=u8rAeJe5eKM-kJgAlBTxgWXhpUDS1JupiziQfsllVqs)
 
 # NOT GATE USING NAND GATE
 ![NOT USING NAND GATE](https://github.com/user-attachments/assets/4adbeaa5-e589-40cf-b6bd-6d3facd096ba)
-
 # Circuit in Tinkercad
 [Open in Tinkercad ](https://www.tinkercad.com/things/7FKD0IKyhpJ-not-using-nand-gate?sharecode=HvPpa)
 
@@ -560,6 +558,11 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 ![AND USING NOR GATE](https://github.com/user-attachments/assets/e70d8543-7dbf-4eef-8177-13a2b560db84)
 # Circuit in Tinkercad
 [Open in Tinkercad](https://www.tinkercad.com/things/h1zbBghokQR-and-using-nor-gate?sharecode=GeQpSz7MQrp8EG_RjMzPekr48k4taT8oeFhMIc7N5-w)
+
+# OR GATE USING NOR GATE
+![OR USING NOR GATE](https://github.com/user-attachments/assets/3c9fdac7-6258-4634-9dab-d1af2124a595)
+# Circuit in Tinkercad
+[Open in Tinkercad](https://www.tinkercad.com/things/faptNwFpFE1-or-using-nor-gate?sharecode=QCxizkmOR7pgj-5uIcOl29znPSDP6uJhy2xi2e7dMgM)
 
 # NOT GATE USING NOR GATE
 ![NOT USING NOR GATE](https://github.com/user-attachments/assets/a1d9730c-a6a8-4672-bb8a-798d3f3a7847)
