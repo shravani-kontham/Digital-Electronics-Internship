@@ -1,4 +1,5 @@
-![OR USING NOR GATE](https://github.com/user-attachments/assets/deb7b2cf-839c-4466-9fa4-5246231144d1)# DIGITAL ELECTRONICS 
+
+# DIGITAL ELECTRONICS 
 # Table of Contents
 
 - [What is Digital Electronics](#what-is-digital-electronics)
