@@ -11,7 +11,7 @@
 - [Basic Logic Gates](#basic-logic-gates)
 - [Integrated Circuits-IC's](#integrated-circuits-ics)
 - [Implementation of Logic Gates](#implementation-of-logic-gates)
-_ [Implentation of Half Adder](#implentation-of half-adder)
+- [Implentation of Half Adder](#implentation-of-half-adder)
 
 # What is Digital Electronics
 Digital electronics is a branch of electronics that deals with discrete signals and circuits, as opposed to analog electronics which handles continuous signals. Digital circuits use binary logic (0 and 1) and Boolean algebra to process and store information. These circuits are the foundation of modern computers, digital communications, and numerous other technological applications. 
