@@ -571,12 +571,11 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 [Open in Tinkercad](https://www.tinkercad.com/things/b3vQq6p5kvf-not-using-nor-gate?sharecode=5maK3HQQwScx-DIWHlD3MM8Rg5SOJ8bdDlfflgIFets)
 
 # Implentation of Half Adder
-Circuit Diagram
+• Circuit Diagram
 ![WhatsApp Image 2025-05-25 at 16 47 26_3ebeb1bb](https://github.com/user-attachments/assets/73731ba4-343a-4228-b97a-fe2c5a45f6f1)
-Circuit in Tinkercad
 ![HALF ADDER USING NAND GATE](https://github.com/user-attachments/assets/36b480a6-9ccd-474d-b22e-551c54cd4d34)
 
-Half Adder using NAND GATE IC-7400 Pin-to-Pin Connection Table
+• Half Adder using NAND GATE IC-7400 Pin-to-Pin Connection Table
 | *Component*       | *Connection Details*                                                                                                                            |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | *7400 IC*         |                                                                                                                                                   |
@@ -602,5 +601,5 @@ Half Adder using NAND GATE IC-7400 Pin-to-Pin Connection Table
 Sum is the result of the XOR operation (A ⊕ B).
 
 Carry is the result of the AND operation (A · B).
-# Half Adder in Tinkercad
+# Circuit in Tinkercad
 [Open in Tinkercad](https://www.tinkercad.com/things/0oPYOQbbfj6-half-adder-using-nand-gate?sharecode=wTfPgh1h2cXXSCN6jd-GtpC0e2IkoZMsHZYvdvmQ48c)
