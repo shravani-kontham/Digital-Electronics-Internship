@@ -566,6 +566,41 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 [Open in Tinkercad](https://www.tinkercad.com/things/faptNwFpFE1-or-using-nor-gate?sharecode=QCxizkmOR7pgj-5uIcOl29znPSDP6uJhy2xi2e7dMgM)
 
 # NOT GATE USING NOR GATE
-![NOT USING NOR GATE](https://github.com/user-attachments/assets/a1d9730c-a6a8-4672-bb8a-798d3f3a7847)
+![NOT USING NOR GATE (1)](https://github.com/user-attachments/assets/f8a34c45-6476-4a9a-8c6c-78b7e21b9882)
 # Circuit in Tinkercad 
 [Open in Tinkercad](https://www.tinkercad.com/things/b3vQq6p5kvf-not-using-nor-gate?sharecode=5maK3HQQwScx-DIWHlD3MM8Rg5SOJ8bdDlfflgIFets)
+
+# Implentation of Half Adder
+Circuit Diagram
+![WhatsApp Image 2025-05-25 at 16 47 26_3ebeb1bb](https://github.com/user-attachments/assets/73731ba4-343a-4228-b97a-fe2c5a45f6f1)
+Circuit in Tinkercad
+![HALF ADDER USING NAND GATE](https://github.com/user-attachments/assets/36b480a6-9ccd-474d-b22e-551c54cd4d34)
+
+Half Adder using NAND GATE IC-7400 Pin-to-Pin Connection Table
+| *Component*       | *Connection Details*                                                                                                                            |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| *7400 IC*         |                                                                                                                                                   |
+| Pin 14 (Vcc)        | Connect to +5V power supply                                                                                                                       |
+| Pin 7 (GND)         | Connect to Ground                                                                                                                                 |
+| *Input A*         | Connect to *Button A*, then to +5V and GND (via resistor)                                                                                       |
+| *Input B*         | Connect to *Button B*, same as above                                                                                                            |
+| *Gate 1 (NAND 1)* | A to *Pin 1, B to **Pin 2, output (A NAND B) to **Pin 3*                                                                                    |
+| *Gate 2 (NAND 2)* | A to *Pin 4, Pin 3 to **Pin 5, output to **Pin 6*                                                                                           |
+| *Gate 3 (NAND 3)* | B to *Pin 10, Pin 3 to **Pin 9, output to **Pin 8*                                                                                          |
+| *Gate 4 (NAND 4)* | Pin 6 to *Pin 12, Pin 8 to **Pin 13, output (Sum) to **Pin 11*                                                                              |
+| *Carry Output*    | From *Pin 3* (A NAND B), connect to another NAND gate as both inputs (e.g., loop into Pins 1 & 2 of an unused NAND) → output is Carry (A AND B) |
+| *Sum LED*         | Connect anode to *Pin 11* via resistor, cathode to GND                                                                                          |
+| *Carry LED*       | Connect anode to final NAND output (Carry) via resistor, cathode to GND                                                                           |
+# Half Adder Truth Table
+| *Input A* | *Input B* | *Sum (A ⊕ B)* | *Carry (A · B)* |
+| ----------- | ----------- | --------------- | ----------------- |
+| 0           | 0           | 0               | 0                 |
+| 0           | 1           | 1               | 0                 |
+| 1           | 0           | 1               | 0                 |
+| 1           | 1           | 0               | 1                 |
+
+Sum is the result of the XOR operation (A ⊕ B).
+
+Carry is the result of the AND operation (A · B).
+# Half Adder in Tinkercad
+[Open in Tinkercad](https://www.tinkercad.com/things/0oPYOQbbfj6-half-adder-using-nand-gate?sharecode=wTfPgh1h2cXXSCN6jd-GtpC0e2IkoZMsHZYvdvmQ48c)
