@@ -607,11 +607,11 @@ Carry is the result of the AND operation (A · B).
 [Open in Tinkercad](https://www.tinkercad.com/things/0oPYOQbbfj6-half-adder-using-nand-gate?sharecode=wTfPgh1h2cXXSCN6jd-GtpC0e2IkoZMsHZYvdvmQ48c)
 
 # Implentation of full Adder
-Circuit Diagram
+• Circuit Diagram
 ![WhatsApp Image 2025-05-27 at 12 49 51_496d3d4f](https://github.com/user-attachments/assets/6415cdea-adad-4622-9ae9-6ae2eda9a83f)
 ![FULL ADDER USING NAND GATE](https://github.com/user-attachments/assets/ffb8a2e8-4453-46c1-9187-f68c1ce540dc)
 
-Full Adder using NAND GATE IC-7400 pin-to-pin Connection Table
+• Full Adder using NAND GATE IC-7400 pin-to-pin Connection Table
 | *Component* | *Pin*   | *Connection/Function*                    |
 | ------------- | --------- | ------------------------------------------ |
 | Power Supply  | + (Red)   | Breadboard +ve rail (Vcc: +5V)             |
