@@ -13,6 +13,7 @@
 - [Implementation of Logic Gates](#implementation-of-logic-gates)
 - [Implentation of Half Adder](#implentation-of-half-adder)
 - [Implentation of full Adder](#implentation-of-full-adder)
+- [Implentation of Multiplexers](#implentation-of-multiplexers)
 
 # What is Digital Electronics
 Digital electronics is a branch of electronics that deals with discrete signals and circuits, as opposed to analog electronics which handles continuous signals. Digital circuits use binary logic (0 and 1) and Boolean algebra to process and store information. These circuits are the foundation of modern computers, digital communications, and numerous other technological applications. 
@@ -650,3 +651,38 @@ All logic realized using NAND combinations.
 
 # Circuit in Tinkercad
 [Open in Tinkercad](https://www.tinkercad.com/things/a47gZwPhKTs-full-adder-using-nand-gate?sharecode=hNjdbGPcRJL2vR-5mq6obZ_p3EfnY4TxG4NiUtA1GP4)
+
+# Implentation of Multiplexers
+# 1. 2x1 Multiplexer using AND OR NOT GATES 
+Circuit Diagram
+![WhatsApp Image 2025-05-27 at 21 16 15_218591b0](https://github.com/user-attachments/assets/3237623e-8388-414b-95bc-30eeb7a2670d)
+![2X1 multiplexer](https://github.com/user-attachments/assets/41cb0903-4c34-4dc9-9eba-0021ce40fb96)
+
+2X1 Multiplexer pin-to-pin Connection Table
+| Function        | Input Source       | 74HC04 (NOT)   | 74HC08 (AND)           | 74HC32 (OR)       | Output/Note   |
+| --------------- | ------------------ | -------------- | ---------------------- | ----------------- | ------------- |
+| Select Line (S) | DIP Switch         | Pin 1 (input)  | Pin 4 (S input direct) |                   |               |
+| NOT S (S̅)      | From 7404          | Pin 2 (output) | Pin 1 (S̅ input)       |                   |               |
+| Input A (I0)    | DIP Switch         |                | Pin 2 (A input)        |                   |               |
+| S̅·A Output     |                    |                | Pin 3 (AND output)     | Pin 1 (input)     |               |
+| Input B (I1)    | DIP Switch         |                | Pin 5 (B input)        |                   |               |
+| S·B Output      |                    |                | Pin 6 (AND output)     | Pin 2 (input)     |               |
+| Final Output Y  |                    |                |                        | Pin 3 (OR output) | LED or output |
+| Vcc             | Power (Red Rail)   | Pin 14         | Pin 14                 | Pin 14            | +5V           |
+| GND             | Ground (Blue Rail) | Pin 7          | Pin 7                  | Pin 7             | GND           |
+
+# Multiplexer Truth Table
+| *Select (S)* | *Input A (I0)* | *Input B (I1)* | *Output (Y)* |
+| -------------- | ---------------- | ---------------- | -------------- |
+| 0              | 0                | X                | 0              |
+| 0              | 1                | X                | 1              |
+| 1              | X                | 0                | 0              |
+| 1              | X                | 1                | 1              |
+
+X = Don’t care (value doesn’t affect output)
+
+When S = 0, output Y = A (I0)
+
+When S = 1, output Y = B (I1)
+# Circuit in Tinkercad
+[Open in Tinkercad](https://www.tinkercad.com/things/gs6CfQoyIy6-2x1-multiplexer?sharecode=X1sk8Syr-Sc7S-AWISf7FPodiFG_WLnw8bns0CRtS6g)
