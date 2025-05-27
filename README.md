@@ -653,12 +653,12 @@ All logic realized using NAND combinations.
 [Open in Tinkercad](https://www.tinkercad.com/things/a47gZwPhKTs-full-adder-using-nand-gate?sharecode=hNjdbGPcRJL2vR-5mq6obZ_p3EfnY4TxG4NiUtA1GP4)
 
 # Implentation of Multiplexers
-# 1. 2x1 Multiplexer using AND OR NOT GATES 
-Circuit Diagram
+# 1. 2x1 Multiplexer using IC's - 7404,7408 and 7432 
+• Circuit Diagram
 ![WhatsApp Image 2025-05-27 at 21 16 15_218591b0](https://github.com/user-attachments/assets/3237623e-8388-414b-95bc-30eeb7a2670d)
 ![2X1 multiplexer](https://github.com/user-attachments/assets/41cb0903-4c34-4dc9-9eba-0021ce40fb96)
 
-2X1 Multiplexer pin-to-pin Connection Table
+• 2X1 Multiplexer pin-to-pin Connection Table
 | Function        | Input Source       | 74HC04 (NOT)   | 74HC08 (AND)           | 74HC32 (OR)       | Output/Note   |
 | --------------- | ------------------ | -------------- | ---------------------- | ----------------- | ------------- |
 | Select Line (S) | DIP Switch         | Pin 1 (input)  | Pin 4 (S input direct) |                   |               |
