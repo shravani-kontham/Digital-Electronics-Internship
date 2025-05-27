@@ -12,6 +12,7 @@
 - [Integrated Circuits-IC's](#integrated-circuits-ics)
 - [Implementation of Logic Gates](#implementation-of-logic-gates)
 - [Implentation of Half Adder](#implentation-of-half-adder)
+- [Implentation of full Adder](#implentation-of-full-adder)
 
 # What is Digital Electronics
 Digital electronics is a branch of electronics that deals with discrete signals and circuits, as opposed to analog electronics which handles continuous signals. Digital circuits use binary logic (0 and 1) and Boolean algebra to process and store information. These circuits are the foundation of modern computers, digital communications, and numerous other technological applications. 
@@ -604,3 +605,48 @@ Sum is the result of the XOR operation (A ⊕ B).
 Carry is the result of the AND operation (A · B).
 # Circuit in Tinkercad
 [Open in Tinkercad](https://www.tinkercad.com/things/0oPYOQbbfj6-half-adder-using-nand-gate?sharecode=wTfPgh1h2cXXSCN6jd-GtpC0e2IkoZMsHZYvdvmQ48c)
+
+# Implentation of full Adder
+Circuit Diagram
+![WhatsApp Image 2025-05-27 at 12 49 51_496d3d4f](https://github.com/user-attachments/assets/6415cdea-adad-4622-9ae9-6ae2eda9a83f)
+![FULL ADDER USING NAND GATE](https://github.com/user-attachments/assets/ffb8a2e8-4453-46c1-9187-f68c1ce540dc)
+
+Full Adder using NAND GATE IC-7400 pin-to-pin Connection Table
+| *Component* | *Pin*   | *Connection/Function*                    |
+| ------------- | --------- | ------------------------------------------ |
+| Power Supply  | + (Red)   | Breadboard +ve rail (Vcc: +5V)             |
+| Power Supply  | – (Black) | Breadboard –ve rail (GND)                  |
+| IC1 (7400)    | Pin 7     | GND rail                                   |
+| IC1 (7400)    | Pin 14    | Vcc rail                                   |
+| IC2 (7400)    | Pin 7     | GND rail                                   |
+| IC2 (7400)    | Pin 14    | Vcc rail                                   |
+| IC3 (7400)    | Pin 7     | GND rail                                   |
+| IC3 (7400)    | Pin 14    | Vcc rail                                   |
+| Switch 1      | Output    | Input A (goes to IC inputs)                |
+| Switch 2      | Output    | Input B (goes to IC inputs)                |
+| Switch 3      | Output    | Carry In (Cin)                             |
+| LED 1         | Anode     | Sum Output (via resistor to NAND output)   |
+| LED 2         | Anode     | Carry Output (via resistor to NAND output) |
+
+Logic Overview :
+
+Three inputs: A, B, Cin
+
+Two outputs: Sum and Carry
+
+All logic realized using NAND combinations.
+
+# Full Adder Truth Table
+| A | B | Cin | Sum | Cout |
+| - | - | --- | --- | ---- |
+| 0 | 0 | 0   | 0   | 0    |
+| 0 | 0 | 1   | 1   | 0    |
+| 0 | 1 | 0   | 1   | 0    |
+| 0 | 1 | 1   | 0   | 1    |
+| 1 | 0 | 0   | 1   | 0    |
+| 1 | 0 | 1   | 0   | 1    |
+| 1 | 1 | 0   | 0   | 1    |
+| 1 | 1 | 1   | 1   | 1    |
+
+# Circuit in Tinkercad
+[Open in Tinkercad](https://www.tinkercad.com/things/a47gZwPhKTs-full-adder-using-nand-gate?sharecode=hNjdbGPcRJL2vR-5mq6obZ_p3EfnY4TxG4NiUtA1GP4)
