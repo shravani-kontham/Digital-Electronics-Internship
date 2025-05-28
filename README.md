@@ -672,17 +672,17 @@ All logic realized using NAND combinations.
 | GND             | Ground (Blue Rail) | Pin 7          | Pin 7                  | Pin 7             | GND           |
 
 # Multiplexer Truth Table
-| *Select (S)* | *Input A (I0)* | *Input B (I1)* | *Output (Y)* |
-| -------------- | ---------------- | ---------------- | -------------- |
-| 0              | 0                | X                | 0              |
-| 0              | 1                | X                | 1              |
-| 1              | X                | 0                | 0              |
-| 1              | X                | 1                | 1              |
+ | SL | IN1 | IN2 | OUT |
+| -- | --- | --- | --- |
+| 0  | 0   | 0   | 0   |
+| 0  | 0   | 1   | 0   |
+| 0  | 1   | 0   | 1   |
+| 0  | 1   | 1   | 1   |
+| 1  | 0   | 0   | 0   |
+| 1  | 0   | 1   | 1   |
+| 1  | 1   | 0   | 0   |
+| 1  | 1   | 1   | 1   |
 
-X = Don’t care (value doesn’t affect output)
 
-When S = 0, output Y = A (I0)
-
-When S = 1, output Y = B (I1)
 # Circuit in Tinkercad
 [Open in Tinkercad](https://www.tinkercad.com/things/gs6CfQoyIy6-2x1-multiplexer?sharecode=X1sk8Syr-Sc7S-AWISf7FPodiFG_WLnw8bns0CRtS6g)
