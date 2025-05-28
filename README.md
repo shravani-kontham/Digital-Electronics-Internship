@@ -664,10 +664,10 @@ All logic realized using NAND combinations.
 | Select Line (S) | DIP Switch         | Pin 1 (input)  | Pin 4 (S input direct) |         NC          |   NC            |
 | NOT S (S̅)      | From 7404          | Pin 2 (output) | Pin 1 (S̅ input)       |             NC      |    NC           |
 | Input A (I0)    | DIP Switch         |     NC           | Pin 2 (A input)        |         NC          |     NC          |
-| S̅·A Output     |                    |     NC           | Pin 3 (AND output)     | Pin 1 (input)     |       NC        |
+| S̅·A Output     |       NC             |     NC           | Pin 3 (AND output)     | Pin 1 (input)     |       NC        |
 | Input B (I1)    | DIP Switch         |    NC            | Pin 5 (B input)        |          NC         |      NC         |
-| S·B Output      |                    |   NC             | Pin 6 (AND output)     | Pin 2 (input)     |     NC          |
-| Final Output Y  |                    |    NC            |     NC                   | Pin 3 (OR output) | LED or output |
+| S·B Output      |       NC             |   NC             | Pin 6 (AND output)     | Pin 2 (input)     |     NC          |
+| Final Output Y  |       NC             |    NC            |     NC                   | Pin 3 (OR output) | LED or output |
 | Vcc             | Power (Red Rail)   | Pin 14         | Pin 14                 | Pin 14            | +5V           |
 | GND             | Ground (Blue Rail) | Pin 7          | Pin 7                  | Pin 7             | GND           |
 
