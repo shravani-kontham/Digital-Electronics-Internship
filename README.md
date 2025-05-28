@@ -661,13 +661,13 @@ All logic realized using NAND combinations.
 • 2X1 Multiplexer pin-to-pin Connection Table
 | Function        | Input Source       | 74HC04 (NOT)   | 74HC08 (AND)           | 74HC32 (OR)       | Output/Note   |
 | --------------- | ------------------ | -------------- | ---------------------- | ----------------- | ------------- |
-| Select Line (S) | DIP Switch         | Pin 1 (input)  | Pin 4 (S input direct) |                   |               |
-| NOT S (S̅)      | From 7404          | Pin 2 (output) | Pin 1 (S̅ input)       |                   |               |
-| Input A (I0)    | DIP Switch         |                | Pin 2 (A input)        |                   |               |
-| S̅·A Output     |                    |                | Pin 3 (AND output)     | Pin 1 (input)     |               |
-| Input B (I1)    | DIP Switch         |                | Pin 5 (B input)        |                   |               |
-| S·B Output      |                    |                | Pin 6 (AND output)     | Pin 2 (input)     |               |
-| Final Output Y  |                    |                |                        | Pin 3 (OR output) | LED or output |
+| Select Line (S) | DIP Switch         | Pin 1 (input)  | Pin 4 (S input direct) |         NC          |   NC            |
+| NOT S (S̅)      | From 7404          | Pin 2 (output) | Pin 1 (S̅ input)       |             NC      |    NC           |
+| Input A (I0)    | DIP Switch         |     NC           | Pin 2 (A input)        |         NC          |     NC          |
+| S̅·A Output     |                    |     NC           | Pin 3 (AND output)     | Pin 1 (input)     |       NC        |
+| Input B (I1)    | DIP Switch         |    NC            | Pin 5 (B input)        |          NC         |      NC         |
+| S·B Output      |                    |   NC             | Pin 6 (AND output)     | Pin 2 (input)     |     NC          |
+| Final Output Y  |                    |    NC            |     NC                   | Pin 3 (OR output) | LED or output |
 | Vcc             | Power (Red Rail)   | Pin 14         | Pin 14                 | Pin 14            | +5V           |
 | GND             | Ground (Blue Rail) | Pin 7          | Pin 7                  | Pin 7             | GND           |
 
