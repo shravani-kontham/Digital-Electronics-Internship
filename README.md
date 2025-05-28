@@ -610,7 +610,7 @@ Carry is the result of the AND operation (A · B).
 # Implentation of full Adder
 • Circuit Diagram
 ![WhatsApp Image 2025-05-27 at 12 49 51_496d3d4f](https://github.com/user-attachments/assets/6415cdea-adad-4622-9ae9-6ae2eda9a83f)
-![FULL ADDER USING NAND GATE](https://github.com/user-attachments/assets/ffb8a2e8-4453-46c1-9187-f68c1ce540dc)
+![FULL ADDER USING NAND GATE (1)](https://github.com/user-attachments/assets/93df8fdc-c993-4d2d-ab24-ecdf30609cef)
 
 • Full Adder using NAND GATE IC-7400 pin-to-pin Connection Table
 | *Component* | *Pin*   | *Connection/Function*                    |
