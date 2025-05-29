@@ -699,24 +699,30 @@ A 4-to-1 multiplexer (also known as a 4x1 mux) is a digital circuit that selects
 ![4X1 Multiplexer (3)](https://github.com/user-attachments/assets/9504f346-c535-4bfe-940c-717de0be5267)
 
 # 4x1 Multiplexer pin-to-pin Connection Table
-| Source IC  | Source Pin  | Signal       | Destination IC | Destination Pin | Notes                     |
-| ---------- | ----------- | ------------ | -------------- | --------------- | ------------------------- |
-| DIP Switch | 1–6         | A0–A2, B0–B2 | 74HC04 / 08    | Varies          | Inputs to inverters/gates |
-| 74HC04     | Pin 1 (In)  | A0           | DIP Switch     | Pin 1           | Input to inverter         |
-| 74HC04     | Pin 2 (Out) | A0'          | 74HC08 #1      | Pin 1 (A1)      | Inverted A0 to AND        |
-| 74HC04     | Pin 3 (In)  | A1           | DIP Switch     | Pin 2           |   NC                        |
-| 74HC04     | Pin 4 (Out) | A1'          | 74HC08 #1      | Pin 2 (B1)      |   NC                        |
-| 74HC08 #1  | Pin 3 (Y1)  | A0' AND A1'  | 74HC32         | Pin 1 (A1)      |   NC                          |
-| 74HC08 #1  | Pin 4 (A2)  | A1           | DIP Switch     | Pin 2           |   NC                        |
-| 74HC08 #1  | Pin 5 (B2)  | B0           | DIP Switch     | Pin 3           |   NC                        |
-| 74HC08 #1  | Pin 6 (Y2)  | A1 AND B0    | 74HC32         | Pin 2 (B1)      |   NC                        |
-| 74HC08 #2  | Pin 1 (A1)  | A2           | DIP Switch     | Pin 4           |   NC                        |
-| 74HC08 #2  | Pin 2 (B1)  | B1           | DIP Switch     | Pin 5           |   NC                        |
-| 74HC08 #2  | Pin 3 (Y1)  | A2 AND B1    | 74HC32         | Pin 4 (A2)      |   NC                        |
-| 74HC08 #2  | Pin 4 (A2)  | A2'          | 74HC04         | Output pin      | Optional                  |
-| 74HC08 #2  | Pin 5 (B2)  | B2           | DIP Switch     | Pin 6           |  NC                         |
-| 74HC08 #2  | Pin 6 (Y2)  | A2' AND B2   | 74HC32         | Pin 5 (B2)      |  NC                         |
-| 74HC32     | Pin 3 (Y1)  | Final Output | LED + Resistor | Ground          | Connected to LED          |
+| From Component      | From Pin #                | To Component                | To Pin #         | Signal / Purpose          |
+| ------------------- | ------------------------- | --------------------------- | ---------------- | ------------------------- |
+| Power Supply        | VCC (+5V)                 | Breadboard + Rail           | —                | Power line                |
+| Power Supply        | GND                       | Breadboard - Rail           | —                | Ground line               |
+| Breadboard + Rail   | IC1                       | Pin 5                       | VCC              | Power to IC1              |
+| Breadboard + Rail   | IC2                       | Pin 5                       | VCC              | Power to IC2              |
+| Breadboard + Rail   | IC3                       | Pin 5                       | VCC              | Power to IC3              |
+| Breadboard + Rail   | IC4                       | Pin 5                       | VCC              | Power to IC4              |
+| Breadboard - Rail   | IC1                       | Pin 10                      | GND              | Ground to IC1             |
+| Breadboard - Rail   | IC2                       | Pin 10                      | GND              | Ground to IC2             |
+| Breadboard - Rail   | IC3                       | Pin 10                      | GND              | Ground to IC3             |
+| Breadboard - Rail   | IC4                       | Pin 10                      | GND              | Ground to IC4             |
+| Push-button / Clock | —                         | IC1                         | Pin 14 (Clock A) | Clock input to IC1        |
+| IC1                 | Pin 11 (QD)               | IC2                         | Pin 14 (Clock A) | Carry pulse to next stage |
+| IC2                 | Pin 11 (QD)               | IC3                         | Pin 14 (Clock A) | Carry pulse to next stage |
+| IC3                 | Pin 11 (QD)               | IC4                         | Pin 14 (Clock A) | Carry pulse to next stage |
+| IC1                 | Pins 12, 9, 8, 11 (QA-QD) | 7-Segment Display Connector | Pins D0–D3       | 1st digit BCD             |
+| IC2                 | Pins 12, 9, 8, 11 (QA-QD) | 7-Segment Display Connector | Pins D4–D7       | 2nd digit BCD             |
+| IC3                 | Pins 12, 9, 8, 11 (QA-QD) | 7-Segment Display Connector | Pins D8–D11      | 3rd digit BCD             |
+| IC4                 | Pins 12, 9, 8, 11 (QA-QD) | 7-Segment Display Connector | Pins D12–D15     | 4th digit BCD             |
+| Resistor (1kΩ)      | —                         | LED Anode                   | —                | Current limiting resistor |
+| LED Cathode         | —                         | Breadboard - Rail           | —                | Ground for LED            |
+
+
 # Truth Table
 | S1 | S0 | Selected Input | Y  |
 | -- | -- | -------------- | -- |
