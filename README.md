@@ -699,23 +699,53 @@ A 4-to-1 multiplexer (also known as a 4x1 mux) is a digital circuit that selects
 ![4X1 Multiplexer (3)](https://github.com/user-attachments/assets/9504f346-c535-4bfe-940c-717de0be5267)
 
 # 4x1 Multiplexer pin-to-pin Connection Table
-| Pin # | 74HC86 (XOR)         | 74HC08 (AND)              | 74HC32 (OR)            |
-| ----- | -------------------- | ------------------------- | ---------------------- |
-| 1     | Input A (DIP Switch) | Input A (from XOR out)    | Input A (from AND out) |
-| 2     | Input B (DIP Switch) | Input B (DIP Switch)      | Input B (DIP Switch)   |
-| 3     | XOR Output → AND IN  | AND Output → OR IN        | OR Output → LED        |
-| 4     | Input (unused?)      | Input (possibly from DIP) | Input (unused?)        |
-| 5     | Input (unused?)      | Input (possibly from DIP) | Input (unused?)        |
-| 6     | XOR Output (unused?) | AND Output (unused?)      | OR Output (unused?)    |
-| 7     | **GND** (black wire) | **GND** (black wire)      | **GND** (black wire)   |
-| 8     | Output (unused?)     | Output (unused?)          | Output (unused?)       |
-| 9     | Input (unused?)      | Input (unused?)           | Input (unused?)        |
-| 10    | Input (unused?)      | Input (unused?)           | Input (unused?)        |
-| 11    | XOR Output (unused?) | AND Output (unused?)      | OR Output (unused?)    |
-| 12    | Input (unused?)      | Input (unused?)           | Input (unused?)        |
-| 13    | Input (unused?)      | Input (unused?)           | Input (unused?)        |
-| 14    | **Vcc** (red wire)   | **Vcc** (red wire)        | **Vcc** (red wire)     |
-
+| IC      | Pin No. | Function/Signal  | Connected To / Description                      |
+| ------- | ------- | ---------------- | ----------------------------------------------- |
+| 7404    | 1       | Inverter input   | S0 (from DIP switch)                            |
+| 7404    | 2       | Inverter output  | \~S0 → AND gate input (7408 #1 pin 5, #2 pin 5) |
+| 7404    | 3       | Inverter input   | S1 (from DIP switch)                            |
+| 7404    | 4       | Inverter output  | \~S1 → AND gate input (7408 #1 pin 2, 10)       |
+| 7404    | 7       | GND              | Ground rail                                     |
+| 7404    | 14      | VCC              | +5V rail                                        |
+| 7408 #1 | 1       | AND1 input A     | I0 (from DIP switch)                            |
+| 7408 #1 | 2       | AND1 input B     | \~S1 (7404 pin 4)                               |
+| 7408 #1 | 3       | AND1 output      | → AND1.2 input A (pin 4)                        |
+| 7408 #1 | 4       | AND1.2 input A   | From AND1 output (pin 3)                        |
+| 7408 #1 | 5       | AND1.2 input B   | \~S0 (7404 pin 2)                               |
+| 7408 #1 | 6       | AND1.2 output    | → OR gate (7432 pin 1)                          |
+| 7408 #1 | 9       | AND2 input A     | I1 (from DIP switch)                            |
+| 7408 #1 | 10      | AND2 input B     | \~S1 (7404 pin 4)                               |
+| 7408 #1 | 8       | AND2 output      | → AND2.2 input A (pin 12)                       |
+| 7408 #1 | 12      | AND2.2 input A   | From AND2 output (pin 8)                        |
+| 7408 #1 | 13      | AND2.2 input B   | S0 (from DIP switch)                            |
+| 7408 #1 | 11      | AND2.2 output    | → OR gate (7432 pin 2)                          |
+| 7408 #1 | 7       | GND              | Ground rail                                     |
+| 7408 #1 | 14      | VCC              | +5V rail                                        |
+| 7408 #2 | 1       | AND3 input A     | I2 (from DIP switch)                            |
+| 7408 #2 | 2       | AND3 input B     | S1 (from DIP switch)                            |
+| 7408 #2 | 3       | AND3 output      | → AND3.2 input A (pin 4)                        |
+| 7408 #2 | 4       | AND3.2 input A   | From AND3 output (pin 3)                        |
+| 7408 #2 | 5       | AND3.2 input B   | \~S0 (7404 pin 2)                               |
+| 7408 #2 | 6       | AND3.2 output    | → OR gate (7432 pin 4)                          |
+| 7408 #2 | 9       | AND4 input A     | I3 (from DIP switch)                            |
+| 7408 #2 | 10      | AND4 input B     | S1 (from DIP switch)                            |
+| 7408 #2 | 8       | AND4 output      | → AND4.2 input A (pin 12)                       |
+| 7408 #2 | 12      | AND4.2 input A   | From AND4 output (pin 8)                        |
+| 7408 #2 | 13      | AND4.2 input B   | S0 (from DIP switch)                            |
+| 7408 #2 | 11      | AND4.2 output    | → OR gate (7432 pin 5)                          |
+| 7408 #2 | 7       | GND              | Ground rail                                     |
+| 7408 #2 | 14      | VCC              | +5V rail                                        |
+| 7432    | 1       | OR1 input A      | From 7408 #1 pin 6 (I0·\~S1·\~S0)               |
+| 7432    | 2       | OR1 input B      | From 7408 #1 pin 11 (I1·\~S1·S0)                |
+| 7432    | 3       | OR1 output       | → OR3 input A (pin 9)                           |
+| 7432    | 4       | OR2 input A      | From 7408 #2 pin 6 (I2·S1·\~S0)                 |
+| 7432    | 5       | OR2 input B      | From 7408 #2 pin 11 (I3·S1·S0)                  |
+| 7432    | 6       | OR2 output       | → OR3 input B (pin 10)                          |
+| 7432    | 9       | OR3 input A      | From pin 3                                      |
+| 7432    | 10      | OR3 input B      | From pin 6                                      |
+| 7432    | 8       | **MUX Output Y** | Connected to LED + resistor                     |
+| 7432    | 7       | GND              | Ground rail                                     |
+| 7432    | 14      | VCC              | +5V rail                                        |
 
 
 # Truth Table
