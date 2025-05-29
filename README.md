@@ -574,11 +574,11 @@ Integrated circuits (ICs) also called microelectric chips are used to create a d
 [Open in Tinkercad](https://www.tinkercad.com/things/b3vQq6p5kvf-not-using-nor-gate?sharecode=5maK3HQQwScx-DIWHlD3MM8Rg5SOJ8bdDlfflgIFets)
 
 # Implentation of Half Adder
-• Circuit Diagram
+# • Circuit Diagram
 ![WhatsApp Image 2025-05-25 at 16 47 26_3ebeb1bb](https://github.com/user-attachments/assets/73731ba4-343a-4228-b97a-fe2c5a45f6f1)
 ![HALF ADDER USING NAND GATE](https://github.com/user-attachments/assets/36b480a6-9ccd-474d-b22e-551c54cd4d34)
 
-• Half Adder using NAND GATE IC-7400 Pin-to-Pin Connection Table
+# • Half Adder using NAND GATE IC-7400 Pin-to-Pin Connection Table
 | *Component*       | *Connection Details*                                                                                                                            |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | *7400 IC*         |                                                                                                                                                   |
@@ -608,11 +608,11 @@ Carry is the result of the AND operation (A · B).
 [Open in Tinkercad](https://www.tinkercad.com/things/0oPYOQbbfj6-half-adder-using-nand-gate?sharecode=wTfPgh1h2cXXSCN6jd-GtpC0e2IkoZMsHZYvdvmQ48c)
 
 # Implentation of full Adder
-• Circuit Diagram
+# • Circuit Diagram
 ![WhatsApp Image 2025-05-27 at 12 49 51_496d3d4f](https://github.com/user-attachments/assets/6415cdea-adad-4622-9ae9-6ae2eda9a83f)
 ![FULL ADDER USING NAND GATE (1)](https://github.com/user-attachments/assets/93df8fdc-c993-4d2d-ab24-ecdf30609cef)
 
-• Full Adder using NAND GATE IC-7400 pin-to-pin Connection Table
+# • Full Adder using NAND GATE IC-7400 pin-to-pin Connection Table
 | *Component* | *Pin*   | *Connection/Function*                    |
 | ------------- | --------- | ------------------------------------------ |
 | Power Supply  | + (Red)   | Breadboard +ve rail (Vcc: +5V)             |
@@ -653,12 +653,17 @@ All logic realized using NAND combinations.
 [Open in Tinkercad](https://www.tinkercad.com/things/a47gZwPhKTs-full-adder-using-nand-gate?sharecode=hNjdbGPcRJL2vR-5mq6obZ_p3EfnY4TxG4NiUtA1GP4)
 
 # Implentation of Multiplexers
+# What Are Multiplexers?
+A multiplexer is a combinational circuit that has many data inputs and a single output, depending on control or select inputs. For N input lines, log2(N) selection lines are required, or equivalently, for 2n input lines, n selection lines are needed. Multiplexers are also known as "N-to-1 selectors," parallel-to-serial converters, many-to-one circuits, and universal logic circuits. They are mainly used to increase the amount of data that can be sent over a network within a certain amount of time and bandwidth .
+
+
 # 1. 2x1 Multiplexer using IC's - 7404,7408 and 7432 
-• Circuit Diagram
+The 2x1 is a fundamental circuit which is also known 2-to-1 multiplexer that are used to choose one signal from two inputs and transmits it to the output. The 2x1 mux has two input lines, one output line, and a single selection line. It has various applications in digital systems such as in microprocessor it is used to select between two different data sources or between two different instructions.
+# • Circuit Diagram
 ![WhatsApp Image 2025-05-27 at 21 16 15_218591b0](https://github.com/user-attachments/assets/3237623e-8388-414b-95bc-30eeb7a2670d)
 ![2X1 multiplexer](https://github.com/user-attachments/assets/41cb0903-4c34-4dc9-9eba-0021ce40fb96)
 
-• 2X1 Multiplexer pin-to-pin Connection Table
+# • 2X1 Multiplexer pin-to-pin Connection Table
 | Function        | Input Source       | 74HC04 (NOT)   | 74HC08 (AND)           | 74HC32 (OR)       | Output/Note   |
 | --------------- | ------------------ | -------------- | ---------------------- | ----------------- | ------------- |
 | Select Line (S) | DIP Switch         | Pin 1 (input)  | Pin 4 (S input direct) |         NC          |   NC            |
@@ -671,7 +676,7 @@ All logic realized using NAND combinations.
 | Vcc             | Power (Red Rail)   | Pin 14         | Pin 14                 | Pin 14            | +5V           |
 | GND             | Ground (Blue Rail) | Pin 7          | Pin 7                  | Pin 7             | GND           |
 
-# Multiplexer Truth Table
+#  Truth Table
  | SL | IN1 | IN2 | OUT |
 | -- | --- | --- | --- |
 | 0  | 0   | 0   | 0   |
@@ -686,3 +691,38 @@ All logic realized using NAND combinations.
 
 # Circuit in Tinkercad
 [Open in Tinkercad](https://www.tinkercad.com/things/gs6CfQoyIy6-2x1-multiplexer?sharecode=X1sk8Syr-Sc7S-AWISf7FPodiFG_WLnw8bns0CRtS6g)
+
+# 2. 4x1 Multiplexer using IC's - 7400,7404,7408 and 7432
+A 4-to-1 multiplexer (also known as a 4x1 mux) is a digital circuit that selects one of four input data lines and directs it to a single output line. It operates based on a pair of selection lines, which act as a switch to choose which input to route. The 4x1 mux has 4 data inputs (D0, D1, D2, D3), 2 selection lines (S0, S1), and 1 output (Y).
+# Circuit Diagram
+![WhatsApp Image 2025-05-29 at 14 41 34_894746df](https://github.com/user-attachments/assets/d7206948-39fb-447c-9c12-89f4fb20967c)
+![4X1 Multiplexer](https://github.com/user-attachments/assets/5aa63716-f961-45ba-9e6c-80841073b741)
+
+# 4x1 Multiplexer pin-to-pin Connection Table
+| Source IC  | Source Pin  | Signal       | Destination IC | Destination Pin | Notes                     |
+| ---------- | ----------- | ------------ | -------------- | --------------- | ------------------------- |
+| DIP Switch | 1–6         | A0–A2, B0–B2 | 74HC04 / 08    | Varies          | Inputs to inverters/gates |
+| 74HC04     | Pin 1 (In)  | A0           | DIP Switch     | Pin 1           | Input to inverter         |
+| 74HC04     | Pin 2 (Out) | A0'          | 74HC08 #1      | Pin 1 (A1)      | Inverted A0 to AND        |
+| 74HC04     | Pin 3 (In)  | A1           | DIP Switch     | Pin 2           |   NC                        |
+| 74HC04     | Pin 4 (Out) | A1'          | 74HC08 #1      | Pin 2 (B1)      |   NC                        |
+| 74HC08 #1  | Pin 3 (Y1)  | A0' AND A1'  | 74HC32         | Pin 1 (A1)      |   NC                          |
+| 74HC08 #1  | Pin 4 (A2)  | A1           | DIP Switch     | Pin 2           |   NC                        |
+| 74HC08 #1  | Pin 5 (B2)  | B0           | DIP Switch     | Pin 3           |   NC                        |
+| 74HC08 #1  | Pin 6 (Y2)  | A1 AND B0    | 74HC32         | Pin 2 (B1)      |   NC                        |
+| 74HC08 #2  | Pin 1 (A1)  | A2           | DIP Switch     | Pin 4           |   NC                        |
+| 74HC08 #2  | Pin 2 (B1)  | B1           | DIP Switch     | Pin 5           |   NC                        |
+| 74HC08 #2  | Pin 3 (Y1)  | A2 AND B1    | 74HC32         | Pin 4 (A2)      |   NC                        |
+| 74HC08 #2  | Pin 4 (A2)  | A2'          | 74HC04         | Output pin      | Optional                  |
+| 74HC08 #2  | Pin 5 (B2)  | B2           | DIP Switch     | Pin 6           |  NC                         |
+| 74HC08 #2  | Pin 6 (Y2)  | A2' AND B2   | 74HC32         | Pin 5 (B2)      |  NC                         |
+| 74HC32     | Pin 3 (Y1)  | Final Output | LED + Resistor | Ground          | Connected to LED          |
+# Truth Table
+| S1 | S0 | Selected Input | Y  |
+| -- | -- | -------------- | -- |
+| 0  | 0  | I0             | I0 |
+| 0  | 1  | I1             | I1 |
+| 1  | 0  | I2             | I2 |
+| 1  | 1  | I3             | I3 |
+# Circuit in Tinkercad
+[Open in Tinkercad](https://www.tinkercad.com/things/6I7KXFwjY70-4x1-multiplexer)
