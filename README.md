@@ -696,7 +696,7 @@ The 2x1 is a fundamental circuit which is also known 2-to-1 multiplexer that are
 A 4-to-1 multiplexer (also known as a 4x1 mux) is a digital circuit that selects one of four input data lines and directs it to a single output line. It operates based on a pair of selection lines, which act as a switch to choose which input to route. The 4x1 mux has 4 data inputs (D0, D1, D2, D3), 2 selection lines (S0, S1), and 1 output (Y).
 # Circuit Diagram
 ![WhatsApp Image 2025-05-29 at 14 41 34_894746df](https://github.com/user-attachments/assets/d7206948-39fb-447c-9c12-89f4fb20967c)
-![4X1 Multiplexer](https://github.com/user-attachments/assets/5aa63716-f961-45ba-9e6c-80841073b741)
+![4X1 Multiplexer (1)](https://github.com/user-attachments/assets/f44a7f83-3aff-403f-b151-09d8f2621a00)
 
 # 4x1 Multiplexer pin-to-pin Connection Table
 | Source IC  | Source Pin  | Signal       | Destination IC | Destination Pin | Notes                     |
