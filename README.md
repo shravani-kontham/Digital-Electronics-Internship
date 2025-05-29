@@ -692,35 +692,30 @@ The 2x1 is a fundamental circuit which is also known 2-to-1 multiplexer that are
 # Circuit in Tinkercad
 [Open in Tinkercad](https://www.tinkercad.com/things/gs6CfQoyIy6-2x1-multiplexer?sharecode=X1sk8Syr-Sc7S-AWISf7FPodiFG_WLnw8bns0CRtS6g)
 
-# 2. 4x1 Multiplexer using IC's - 7404,,7408 and 7432
+# 2. 4x1 Multiplexer using IC's - 7404,7408 and 7432
 A 4-to-1 multiplexer (also known as a 4x1 mux) is a digital circuit that selects one of four input data lines and directs it to a single output line. It operates based on a pair of selection lines, which act as a switch to choose which input to route. The 4x1 mux has 4 data inputs (D0, D1, D2, D3), 2 selection lines (S0, S1), and 1 output (Y).
 # Circuit Diagram
 ![WhatsApp Image 2025-05-29 at 14 41 34_894746df](https://github.com/user-attachments/assets/d7206948-39fb-447c-9c12-89f4fb20967c)
 ![4X1 Multiplexer (3)](https://github.com/user-attachments/assets/9504f346-c535-4bfe-940c-717de0be5267)
 
 # 4x1 Multiplexer pin-to-pin Connection Table
-| From Component      | From Pin #                | To Component                | To Pin #         | Signal / Purpose          |
-| ------------------- | ------------------------- | --------------------------- | ---------------- | ------------------------- |
-| Power Supply        | VCC (+5V)                 | Breadboard + Rail           | —                | Power line                |
-| Power Supply        | GND                       | Breadboard - Rail           | —                | Ground line               |
-| Breadboard + Rail   | IC1                       | Pin 5                       | VCC              | Power to IC1              |
-| Breadboard + Rail   | IC2                       | Pin 5                       | VCC              | Power to IC2              |
-| Breadboard + Rail   | IC3                       | Pin 5                       | VCC              | Power to IC3              |
-| Breadboard + Rail   | IC4                       | Pin 5                       | VCC              | Power to IC4              |
-| Breadboard - Rail   | IC1                       | Pin 10                      | GND              | Ground to IC1             |
-| Breadboard - Rail   | IC2                       | Pin 10                      | GND              | Ground to IC2             |
-| Breadboard - Rail   | IC3                       | Pin 10                      | GND              | Ground to IC3             |
-| Breadboard - Rail   | IC4                       | Pin 10                      | GND              | Ground to IC4             |
-| Push-button / Clock | —                         | IC1                         | Pin 14 (Clock A) | Clock input to IC1        |
-| IC1                 | Pin 11 (QD)               | IC2                         | Pin 14 (Clock A) | Carry pulse to next stage |
-| IC2                 | Pin 11 (QD)               | IC3                         | Pin 14 (Clock A) | Carry pulse to next stage |
-| IC3                 | Pin 11 (QD)               | IC4                         | Pin 14 (Clock A) | Carry pulse to next stage |
-| IC1                 | Pins 12, 9, 8, 11 (QA-QD) | 7-Segment Display Connector | Pins D0–D3       | 1st digit BCD             |
-| IC2                 | Pins 12, 9, 8, 11 (QA-QD) | 7-Segment Display Connector | Pins D4–D7       | 2nd digit BCD             |
-| IC3                 | Pins 12, 9, 8, 11 (QA-QD) | 7-Segment Display Connector | Pins D8–D11      | 3rd digit BCD             |
-| IC4                 | Pins 12, 9, 8, 11 (QA-QD) | 7-Segment Display Connector | Pins D12–D15     | 4th digit BCD             |
-| Resistor (1kΩ)      | —                         | LED Anode                   | —                | Current limiting resistor |
-| LED Cathode         | —                         | Breadboard - Rail           | —                | Ground for LED            |
+| Pin # | 74HC86 (XOR)         | 74HC08 (AND)              | 74HC32 (OR)            |
+| ----- | -------------------- | ------------------------- | ---------------------- |
+| 1     | Input A (DIP Switch) | Input A (from XOR out)    | Input A (from AND out) |
+| 2     | Input B (DIP Switch) | Input B (DIP Switch)      | Input B (DIP Switch)   |
+| 3     | XOR Output → AND IN  | AND Output → OR IN        | OR Output → LED        |
+| 4     | Input (unused?)      | Input (possibly from DIP) | Input (unused?)        |
+| 5     | Input (unused?)      | Input (possibly from DIP) | Input (unused?)        |
+| 6     | XOR Output (unused?) | AND Output (unused?)      | OR Output (unused?)    |
+| 7     | **GND** (black wire) | **GND** (black wire)      | **GND** (black wire)   |
+| 8     | Output (unused?)     | Output (unused?)          | Output (unused?)       |
+| 9     | Input (unused?)      | Input (unused?)           | Input (unused?)        |
+| 10    | Input (unused?)      | Input (unused?)           | Input (unused?)        |
+| 11    | XOR Output (unused?) | AND Output (unused?)      | OR Output (unused?)    |
+| 12    | Input (unused?)      | Input (unused?)           | Input (unused?)        |
+| 13    | Input (unused?)      | Input (unused?)           | Input (unused?)        |
+| 14    | **Vcc** (red wire)   | **Vcc** (red wire)        | **Vcc** (red wire)     |
+
 
 
 # Truth Table
