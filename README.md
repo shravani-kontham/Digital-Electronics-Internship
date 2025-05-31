@@ -696,58 +696,46 @@ The 2x1 is a fundamental circuit which is also known 2-to-1 multiplexer that are
 A 4-to-1 multiplexer (also known as a 4x1 mux) is a digital circuit that selects one of four input data lines and directs it to a single output line. It operates based on a pair of selection lines, which act as a switch to choose which input to route. The 4x1 mux has 4 data inputs (D0, D1, D2, D3), 2 selection lines (S0, S1), and 1 output (Y).
 # Circuit Diagram
 ![WhatsApp Image 2025-05-29 at 14 41 34_894746df](https://github.com/user-attachments/assets/d7206948-39fb-447c-9c12-89f4fb20967c)
-![4X1 Multiplexer (3)](https://github.com/user-attachments/assets/9504f346-c535-4bfe-940c-717de0be5267)
+![4X1 Multiplexer (5)](https://github.com/user-attachments/assets/ddabe7a4-4bda-436c-a032-f2f572392bd0)
+The components involved are:
 
+74HC04 (Hex Inverter)
+
+74HC08 (Quad 2-input AND gate, 2 ICs)
+
+74HC32 (Quad 2-input OR gate)
+
+DIP Switch (6-switch module)
+
+Power supply (5V)
+
+LED with resistor
 # 4x1 Multiplexer pin-to-pin Connection Table
-| IC      | Pin No. | Function/Signal  | Connected To / Description                      |
-| ------- | ------- | ---------------- | ----------------------------------------------- |
-| 7404    | 1       | Inverter input   | S0 (from DIP switch)                            |
-| 7404    | 2       | Inverter output  | \~S0 → AND gate input (7408 #1 pin 5, #2 pin 5) |
-| 7404    | 3       | Inverter input   | S1 (from DIP switch)                            |
-| 7404    | 4       | Inverter output  | \~S1 → AND gate input (7408 #1 pin 2, 10)       |
-| 7404    | 7       | GND              | Ground rail                                     |
-| 7404    | 14      | VCC              | +5V rail                                        |
-| 7408 #1 | 1       | AND1 input A     | I0 (from DIP switch)                            |
-| 7408 #1 | 2       | AND1 input B     | \~S1 (7404 pin 4)                               |
-| 7408 #1 | 3       | AND1 output      | → AND1.2 input A (pin 4)                        |
-| 7408 #1 | 4       | AND1.2 input A   | From AND1 output (pin 3)                        |
-| 7408 #1 | 5       | AND1.2 input B   | \~S0 (7404 pin 2)                               |
-| 7408 #1 | 6       | AND1.2 output    | → OR gate (7432 pin 1)                          |
-| 7408 #1 | 9       | AND2 input A     | I1 (from DIP switch)                            |
-| 7408 #1 | 10      | AND2 input B     | \~S1 (7404 pin 4)                               |
-| 7408 #1 | 8       | AND2 output      | → AND2.2 input A (pin 12)                       |
-| 7408 #1 | 12      | AND2.2 input A   | From AND2 output (pin 8)                        |
-| 7408 #1 | 13      | AND2.2 input B   | S0 (from DIP switch)                            |
-| 7408 #1 | 11      | AND2.2 output    | → OR gate (7432 pin 2)                          |
-| 7408 #1 | 7       | GND              | Ground rail                                     |
-| 7408 #1 | 14      | VCC              | +5V rail                                        |
-| 7408 #2 | 1       | AND3 input A     | I2 (from DIP switch)                            |
-| 7408 #2 | 2       | AND3 input B     | S1 (from DIP switch)                            |
-| 7408 #2 | 3       | AND3 output      | → AND3.2 input A (pin 4)                        |
-| 7408 #2 | 4       | AND3.2 input A   | From AND3 output (pin 3)                        |
-| 7408 #2 | 5       | AND3.2 input B   | \~S0 (7404 pin 2)                               |
-| 7408 #2 | 6       | AND3.2 output    | → OR gate (7432 pin 4)                          |
-| 7408 #2 | 9       | AND4 input A     | I3 (from DIP switch)                            |
-| 7408 #2 | 10      | AND4 input B     | S1 (from DIP switch)                            |
-| 7408 #2 | 8       | AND4 output      | → AND4.2 input A (pin 12)                       |
-| 7408 #2 | 12      | AND4.2 input A   | From AND4 output (pin 8)                        |
-| 7408 #2 | 13      | AND4.2 input B   | S0 (from DIP switch)                            |
-| 7408 #2 | 11      | AND4.2 output    | → OR gate (7432 pin 5)                          |
-| 7408 #2 | 7       | GND              | Ground rail                                     |
-| 7408 #2 | 14      | VCC              | +5V rail                                        |
-| 7432    | 1       | OR1 input A      | From 7408 #1 pin 6 (I0·\~S1·\~S0)               |
-| 7432    | 2       | OR1 input B      | From 7408 #1 pin 11 (I1·\~S1·S0)                |
-| 7432    | 3       | OR1 output       | → OR3 input A (pin 9)                           |
-| 7432    | 4       | OR2 input A      | From 7408 #2 pin 6 (I2·S1·\~S0)                 |
-| 7432    | 5       | OR2 input B      | From 7408 #2 pin 11 (I3·S1·S0)                  |
-| 7432    | 6       | OR2 output       | → OR3 input B (pin 10)                          |
-| 7432    | 9       | OR3 input A      | From pin 3                                      |
-| 7432    | 10      | OR3 input B      | From pin 6                                      |
-| 7432    | 8       | **MUX Output Y** | Connected to LED + resistor                     |
-| 7432    | 7       | GND              | Ground rail                                     |
-| 7432    | 14      | VCC              | +5V rail                                        |
-
-
+| From Component | From Pin No. | To Component      | To Pin No. | Signal / Description   |
+| -------------- | ------------ | ----------------- | ---------- | ---------------------- |
+| Power Supply   | +5V          | Breadboard + Rail | -          | Power VCC              |
+| Power Supply   | GND          | Breadboard - Rail | -          | Ground                 |
+| 74HC04         | Pin 14       | + Rail            | -          | VCC                    |
+| 74HC04         | Pin 7        | - Rail            | -          | GND                    |
+| 74HC08 #1      | Pin 14       | + Rail            | -          | VCC                    |
+| 74HC08 #1      | Pin 7        | - Rail            | -          | GND                    |
+| 74HC08 #2      | Pin 14       | + Rail            | -          | VCC                    |
+| 74HC08 #2      | Pin 7        | - Rail            | -          | GND                    |
+| 74HC32         | Pin 14       | + Rail            | -          | VCC                    |
+| 74HC32         | Pin 7        | - Rail            | -          | GND                    |
+| DIP Switch     | SW1          | 74HC04            | Pin 1      | Input A to NOT         |
+| 74HC04         | Pin 2        | 74HC08 #1         | Pin 1      | Output of NOT to AND A |
+| DIP Switch     | SW2          | 74HC04            | Pin 3      | Input B to NOT         |
+| 74HC04         | Pin 4        | 74HC08 #1         | Pin 2      | Output of NOT to AND B |
+| 74HC08 #1      | Pin 3        | 74HC08 #2         | Pin 4      | Output to AND input    |
+| DIP Switch     | SW3          | 74HC08 #2         | Pin 5      | Input                  |
+| DIP Switch     | SW4          | 74HC08 #2         | Pin 9      | Input                  |
+| DIP Switch     | SW5          | 74HC08 #2         | Pin 10     | Input                  |
+| DIP Switch     | SW6          | 74HC32            | Pin 1      | Input                  |
+| 74HC08 #2      | Pin 6        | 74HC32            | Pin 2      | Output to OR gate      |
+| 74HC32         | Pin 3        | LED (anode)       | -          | OR gate output to LED  |
+| LED            | Cathode      | Resistor          | -          | Series resistor to GND |
+| Resistor       | Other leg    | - Rail            | -          | Ground                 |
 # Truth Table
 | S1 | S0 | Selected Input | Y  |
 | -- | -- | -------------- | -- |
