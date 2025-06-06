@@ -659,7 +659,8 @@ A multiplexer is a combinational circuit that has many data inputs and a single 
 
 # 1. 2x1 Multiplexer using IC's - 7404,7408 and 7432 
 The 2x1 is a fundamental circuit which is also known 2-to-1 multiplexer that are used to choose one signal from two inputs and transmits it to the output. The 2x1 mux has two input lines, one output line, and a single selection line. It has various applications in digital systems such as in microprocessor it is used to select between two different data sources or between two different instructions.
-Applications of 2×1 Multiplexer:
+
+# Applications of 2×1 Multiplexer:
 
 • Data selection between two input signals
 
@@ -713,7 +714,7 @@ Applications of 2×1 Multiplexer:
 # 2. 4x1 Multiplexer using IC's - 7404,7408 and 7432
 A 4-to-1 multiplexer (also known as a 4x1 mux) is a digital circuit that selects one of four input data lines and directs it to a single output line. It operates based on a pair of selection lines, which act as a switch to choose which input to route. The 4x1 mux has 4 data inputs (D0, D1, D2, D3), 2 selection lines (S0, S1), and 1 output (Y).
 
-Applications of 4×1 Multiplexer:
+# Applications of 4×1 Multiplexer:
 
 • Select one of four data inputs using two selection lines
 
